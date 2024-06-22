@@ -1,0 +1,17 @@
+/*
+ * ControladorSuscripciones.h
+ *
+ *  Created on: 22 jun. 2024
+ *      Author: Windows-User
+ */
+
+#ifndef CONTROLADORSUSCRIPCIONES_H_
+#define CONTROLADORSUSCRIPCIONES_H_
+
+class ControladorSuscripciones {
+public:
+	ControladorSuscripciones();
+	virtual ~ControladorSuscripciones();
+};
+
+#endif /* CONTROLADORSUSCRIPCIONES_H_ */

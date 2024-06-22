@@ -1,0 +1,23 @@
+/*
+ * ControladorVideojuego.h
+ *
+ *  Created on: 22 jun. 2024
+ *      Author: Windows-User
+ */
+
+#ifndef CONTROLADORVIDEOJUEGO_H_
+#define CONTROLADORVIDEOJUEGO_H_
+
+#include <iostream>
+using namespace std;
+
+class ControladorVideojuego {
+private:
+	ControladorVideojuego instanciaVideojuego;
+	ControladorVideojuego();
+public:
+	ControladorVideojuego getInstanciaVideojuego();
+	virtual ~ControladorVideojuego();
+};
+
+#endif /* CONTROLADORVIDEOJUEGO_H_ */

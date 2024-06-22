@@ -1,0 +1,21 @@
+/*
+ * ControladorSuscripciones.cpp
+ *
+ *  Created on: 22 jun. 2024
+ *      Author: Windows-User
+ */
+
+#include "ControladorSuscripciones.h"
+
+ControladorSuscripciones::ControladorSuscripciones() {
+	// TODO Auto-generated constructor stub
+
+}
+
+ControladorSuscripciones ControladorSuscripciones::getInstanciaSuscripciones() {
+}
+
+ControladorSuscripciones::~ControladorSuscripciones() {
+	// TODO Auto-generated destructor stub
+}
+

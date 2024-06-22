@@ -1,0 +1,18 @@
+/*
+ * InterfazControladorPartida.h
+ *
+ *  Created on: 22 jun. 2024
+ *      Author: Windows-User
+ */
+
+#ifndef INTERFAZCONTROLADORPARTIDA_H_
+#define INTERFAZCONTROLADORPARTIDA_H_
+
+class InterfazControladorPartida {
+public:
+
+	InterfazControladorPartida();
+	virtual ~InterfazControladorPartida();
+};
+
+#endif /* INTERFAZCONTROLADORPARTIDA_H_ */

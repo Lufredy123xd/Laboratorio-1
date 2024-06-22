@@ -1,0 +1,21 @@
+/*
+ * Fabrica.cpp
+ *
+ *  Created on: 22 jun. 2024
+ *      Author: Windows-User
+ */
+
+#include "Fabrica.h"
+
+Fabrica::Fabrica() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Fabrica* Fabrica::getInstanciaFabrica() {
+}
+
+Fabrica::~Fabrica() {
+	// TODO Auto-generated destructor stub
+}
+

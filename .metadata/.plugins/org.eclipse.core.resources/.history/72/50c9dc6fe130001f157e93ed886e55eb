@@ -1,0 +1,18 @@
+/*
+ * ControladorUsuario.cpp
+ *
+ *  Created on: 22 jun. 2024
+ *      Author: Windows-User
+ */
+
+#include "ControladorUsuario.h"
+
+ControladorUsuario::ControladorUsuario() {
+	// TODO Auto-generated constructor stub
+
+}
+
+ControladorUsuario::~ControladorUsuario() {
+	// TODO Auto-generated destructor stub
+}
+

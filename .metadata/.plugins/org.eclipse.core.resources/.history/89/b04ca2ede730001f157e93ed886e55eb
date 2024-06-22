@@ -1,0 +1,21 @@
+/*
+ * InterfazControladorVideojuego.h
+ *
+ *  Created on: 22 jun. 2024
+ *      Author: Windows-User
+ */
+
+#ifndef INTERFAZCONTROLADORVIDEOJUEGO_H_
+#define INTERFAZCONTROLADORVIDEOJUEGO_H_
+
+#include <iostream>
+using namespace std;
+
+
+class InterfazControladorVideojuego {
+public:
+	InterfazControladorVideojuego();
+	virtual ~InterfazControladorVideojuego();
+};
+
+#endif /* INTERFAZCONTROLADORVIDEOJUEGO_H_ */

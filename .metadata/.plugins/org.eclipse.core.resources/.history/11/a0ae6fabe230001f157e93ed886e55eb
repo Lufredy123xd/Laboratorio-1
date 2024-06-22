@@ -1,0 +1,23 @@
+/*
+ * ControladorPartida.h
+ *
+ *  Created on: 22 jun. 2024
+ *      Author: Windows-User
+ */
+
+#ifndef CONTROLADORPARTIDA_H_
+#define CONTROLADORPARTIDA_H_
+
+#include <iostream>
+using namespace std;
+
+class ControladorPartida {
+private:
+	ControladorPartida instanciaPartida;
+	ControladorPartida();
+public:
+	ControladorPartida getInstanciaPartida();
+	virtual ~ControladorPartida();
+};
+
+#endif /* CONTROLADORPARTIDA_H_ */

@@ -1,0 +1,22 @@
+#include "ControladorSuscripciones.h"
+
+// Inicialización estática de la instancia
+ControladorSuscripciones* ControladorSuscripciones::instanciaSuscripciones = nullptr;
+
+// Constructor privado
+ControladorSuscripciones::ControladorSuscripciones() {
+    // Constructor de la clase, si es necesario hacer algo aquí
+}
+
+// Método estático para obtener la instancia única
+ControladorSuscripciones* ControladorSuscripciones::getInstanciaSuscripciones() {
+    if (instanciaSuscripciones == nullptr) {
+        instanciaSuscripciones = new ControladorSuscripciones();
+    }
+    return instanciaSuscripciones;
+}
+
+// Destructor (opcional, según necesidades)
+ControladorSuscripciones::~ControladorSuscripciones() {
+    // Destructor de la clase, si es necesario hacer algo aquí
+}

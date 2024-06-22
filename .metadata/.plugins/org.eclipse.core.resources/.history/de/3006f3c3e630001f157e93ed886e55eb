@@ -1,0 +1,31 @@
+/*
+ * InterfazControladorPartida.h
+ *
+ *  Created on: 22 jun. 2024
+ *      Author: Windows-User
+ */
+
+#ifndef INTERFAZCONTROLADORPARTIDA_H_
+#define INTERFAZCONTROLADORPARTIDA_H_
+
+#include <iostream>
+using namespace std;
+
+class InterfazControladorPartida {
+public:
+
+	void ingresarDatosUsuarios()=0;
+	void ingresarDatosDesarollador(string)=0;
+	void ingresarDatosJugador()=0;
+	void iniciarSesion()=0;
+	void confirmarAlta()=0;
+	void cancelarAlta()=0;
+	void ingresarJugadorPartida()=0;
+	void jugadorSeRetiraDeLaPartida()=0;
+	void seleccionarJugadoresSeguir()=0;
+
+	InterfazControladorPartida();
+	virtual ~InterfazControladorPartida();
+};
+
+#endif /* INTERFAZCONTROLADORPARTIDA_H_ */

@@ -1,0 +1,24 @@
+/*
+ * ControladorSuscripciones.h
+ *
+ *  Created on: 22 jun. 2024
+ *      Author: Windows-User
+ */
+
+#ifndef CONTROLADORSUSCRIPCIONES_H_
+#define CONTROLADORSUSCRIPCIONES_H_
+
+#include <iostream>
+#include <vector>
+using namespace std;
+
+class ControladorSuscripciones {
+private:
+	static ControladorSuscripciones* instanciaSuscripciones;
+	ControladorSuscripciones();
+public:
+	static ControladorSuscripciones* getInstanciaSuscripciones();
+	virtual ~ControladorSuscripciones();
+};
+
+#endif /* CONTROLADORSUSCRIPCIONES_H_ */

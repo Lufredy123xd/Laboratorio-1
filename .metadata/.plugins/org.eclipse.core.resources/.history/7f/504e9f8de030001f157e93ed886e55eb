@@ -1,0 +1,20 @@
+/*
+ * ControladorUsuario.h
+ *
+ *  Created on: 22 jun. 2024
+ *      Author: Windows-User
+ */
+
+#ifndef CONTROLADORUSUARIO_H_
+#define CONTROLADORUSUARIO_H_
+
+class ControladorUsuario {
+private:
+	ControladorUsuario instanciaUsuario;
+	ControladorUsuario();
+public:
+	ControladorUsuario getInstanciaUsuario();
+	virtual ~ControladorUsuario();
+};
+
+#endif /* CONTROLADORUSUARIO_H_ */

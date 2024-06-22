@@ -1,0 +1,17 @@
+/*
+ * InterfazControladorSuscripciones.h
+ *
+ *  Created on: 22 jun. 2024
+ *      Author: Windows-User
+ */
+
+#ifndef INTERFAZCONTROLADORSUSCRIPCIONES_H_
+#define INTERFAZCONTROLADORSUSCRIPCIONES_H_
+
+class InterfazControladorSuscripciones {
+public:
+	InterfazControladorSuscripciones();
+	virtual ~InterfazControladorSuscripciones();
+};
+
+#endif /* INTERFAZCONTROLADORSUSCRIPCIONES_H_ */

@@ -1,0 +1,21 @@
+/*
+ * ControladorVideojuego.cpp
+ *
+ *  Created on: 22 jun. 2024
+ *      Author: Windows-User
+ */
+
+#include "ControladorVideojuego.h"
+
+ControladorVideojuego::ControladorVideojuego() {
+	// TODO Auto-generated constructor stub
+
+}
+
+ControladorVideojuego ControladorVideojuego::getInstanciaVideojuego() {
+}
+
+ControladorVideojuego::~ControladorVideojuego() {
+	// TODO Auto-generated destructor stub
+}
+

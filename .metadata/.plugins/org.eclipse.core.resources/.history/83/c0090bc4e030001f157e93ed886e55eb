@@ -1,0 +1,18 @@
+/*
+ * ControladorPartida.cpp
+ *
+ *  Created on: 22 jun. 2024
+ *      Author: Windows-User
+ */
+
+#include "ControladorPartida.h"
+
+ControladorPartida::ControladorPartida() {
+	// TODO Auto-generated constructor stub
+
+}
+
+ControladorPartida::~ControladorPartida() {
+	// TODO Auto-generated destructor stub
+}
+

@@ -22,21 +22,14 @@ private:
 	static Fabrica* instanciaFabrica;
 	Fabrica();
 
-
+	  // Instancias únicas de cada controlador
 	    static ControladorUsuario* instanciaUsuario;
 	    static ControladorPartida* instanciaPartida;
-	    static ControladorSuscripciones* instanciaSuscripcion;
-	    static ControladorVideojuego* instanciaVideojuego;
+	    static ControladorSuscripciones* instanciaSuscripcione;
+	    static ControladorVideojuego* intaniaVideojuego;
 
 public:
 	static Fabrica* getInstanciaFabrica();
-
-
-	    static ControladorUsuario* obtenerInstanciaUsuario();
-	    static ControladorPartida* obtenerInstanciaPartida();
-	    static ControladorSuscripciones* obtenerInstanciaSuscripcion();
-	    static ControladorVideojuego* obtenerInstanciaVideojuego();
-
 	virtual ~Fabrica();
 };
 

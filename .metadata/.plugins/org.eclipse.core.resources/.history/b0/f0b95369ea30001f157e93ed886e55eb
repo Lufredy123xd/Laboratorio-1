@@ -26,7 +26,7 @@ private:
 	    static ControladorUsuario* instanciaUsuario;
 	    static ControladorPartida* instanciaPartida;
 	    static ControladorSuscripciones* instanciaSuscripcion;
-	    static ControladorVideojuego* instanciaVideojuego;
+	    static ControladorVideojuego* intaniaVideojuego;
 
 public:
 	static Fabrica* getInstanciaFabrica();
@@ -35,7 +35,7 @@ public:
 	    static ControladorUsuario* obtenerInstanciaUsuario();
 	    static ControladorPartida* obtenerInstanciaPartida();
 	    static ControladorSuscripciones* obtenerInstanciaSuscripcion();
-	    static ControladorVideojuego* obtenerInstanciaVideojuego();
+	    static ControladorVideojuego* obtenerInstanciaVideojuego);
 
 	virtual ~Fabrica();
 };

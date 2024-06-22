@@ -1,0 +1,18 @@
+#
+#Sat Jun 22 19:57:44 UYT 2024
+Debug/Laboratorio-0.exe=1
+Debug/src/Fabrica.o=1
+Debug/src/InterfazControladorPartida.o=1
+Debug/src/InterfazControladorSuscripciones.o=1
+Debug/src/InterfazControladorUsuario.o=1
+Debug/src/InterfazControladorVideojuego.o=1
+src/Fabrica.cpp=1
+src/Fabrica.h=1
+src/InterfazControladorPartida.cpp=1
+src/InterfazControladorPartida.h=1
+src/InterfazControladorSuscripciones.cpp=1
+src/InterfazControladorSuscripciones.h=1
+src/InterfazControladorUsuario.cpp=1
+src/InterfazControladorUsuario.h=1
+src/InterfazControladorVideojuego.cpp=1
+src/InterfazControladorVideojuego.h=1

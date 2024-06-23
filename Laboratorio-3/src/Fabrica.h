@@ -29,7 +29,6 @@ public:
 
 	ControladorUsuario* getInstanciaUsuario();
 
-	void printEnPantalla();
 
 
 };

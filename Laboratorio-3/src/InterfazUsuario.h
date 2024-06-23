@@ -15,5 +15,6 @@ public:
 
 	virtual void printss()= 0;
 
+
 };
 #endif /* INTERFAZUSUARIO_H_ */

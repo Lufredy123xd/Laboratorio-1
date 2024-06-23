@@ -16,8 +16,6 @@ int main() {
 
 	instancia->getInstanciaFabrica();
 
-	instancia->printEnPantalla();
-
 
 	return 0;
 }

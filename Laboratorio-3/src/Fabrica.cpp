@@ -28,8 +28,3 @@ Fabrica* Fabrica::getInstanciaFabrica()
 	return instancia;
 }
 
-void Fabrica::printEnPantalla()
-{
-	cout<<"HODA EU SOU UMA PANTALA";
-}
-

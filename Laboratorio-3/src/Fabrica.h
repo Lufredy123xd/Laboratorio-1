@@ -21,7 +21,6 @@ private:
 
 public:
 	Fabrica* getInstanciaFabrica();
-
 	void printEnPantalla();
 
 

@@ -27,6 +27,7 @@ ControladorUsuario* ControladorUsuario::getInstanciaControladorUsuario()
 
 	return instancia;
 }
+
 void ControladorUsuario::printss(){
 
 	cout<<"HOLA SOY LA INSTANCIA USUARIO";

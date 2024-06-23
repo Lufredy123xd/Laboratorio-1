@@ -8,11 +8,17 @@
 #include "Fabrica.h"
 
 Fabrica* Fabrica::instancia = nullptr;
+
 ControladorUsuario* Fabrica::instanciaUsuario = nullptr;
+ControladorVideojuego* Fabrica::instanciaVideojuego = nullptr;
+ControladorPartida* Fabrica::instanciaPartida = nullptr;
 
 Fabrica::Fabrica() {
 	// TODO Auto-generated constructor stub
 	instanciaUsuario = ControladorUsuario::getInstanciaControladorUsuario();
+	instanciaVideojuego = ControladorVideojuego::getInstanciaControladorVideojuego();
+	instanciaPartida = ControladorPartida::getInstanciaControladorPartida();
+
 }
 
 Fabrica::~Fabrica() {
@@ -29,8 +35,19 @@ Fabrica* Fabrica::getInstanciaFabrica()
 
 	return instancia;
 }
+
 ControladorUsuario* Fabrica::getInstanciaUsuario(){
 
 	return this->instanciaUsuario ;
+}
+
+ControladorVideojuego* Fabrica::getInstanciaVideojuego()
+{
+	return this->instanciaVideojuego;
+}
+
+ControladorPartida* Fabrica::getInstanciaPartida()
+{
+	return this->instanciaPartida;
 }
 

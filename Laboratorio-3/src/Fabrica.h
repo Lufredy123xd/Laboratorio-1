@@ -21,6 +21,8 @@ private:
 	virtual ~Fabrica();
 	static Fabrica* instancia;
 
+	static ControladorUsuario* instanciaUsuario; 
+
 
 public:
 	Fabrica* getInstanciaFabrica();

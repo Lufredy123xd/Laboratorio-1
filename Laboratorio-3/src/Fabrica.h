@@ -8,6 +8,9 @@
 #ifndef FABRICA_H_
 #define FABRICA_H_
 
+#include"ControladorUsuario.h"
+
+
 #include <iostream>
 using namespace std;
 
@@ -21,6 +24,9 @@ private:
 
 public:
 	Fabrica* getInstanciaFabrica();
+
+	ControladorUsuario* getInstanciaUsuario();
+
 	void printEnPantalla();
 
 

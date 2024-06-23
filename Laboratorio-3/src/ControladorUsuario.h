@@ -7,8 +7,11 @@
 
 #ifndef CONTROLADORUSUARIO_H_
 #define CONTROLADORUSUARIO_H_
+#include <iostream>
+using namespace std;
+#include "InterfazUsuario.h"
 
-class ControladorUsuario {
+class ControladorUsuario : public InterfazUsuario{
 private:
 	ControladorUsuario();
 	virtual ~ControladorUsuario();
@@ -17,6 +20,7 @@ private:
 
 public:
 	static ControladorUsuario* getInstanciaControladorUsuario();
+	void printss();
 
 };
 

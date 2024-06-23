@@ -27,3 +27,7 @@ ControladorUsuario* ControladorUsuario::getInstanciaControladorUsuario()
 
 	return instancia;
 }
+void ControladorUsuario::printss(){
+
+	cout<<"HOLA CICERI";
+}

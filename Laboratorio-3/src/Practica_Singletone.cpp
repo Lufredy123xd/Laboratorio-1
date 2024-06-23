@@ -8,13 +8,19 @@
 
 #include <iostream>
 #include "Fabrica.h"
+#include"InterfazUsuario.h"
+
 using namespace std;
 
 int main() {
 
-	Fabrica* instancia = nullptr;
+	Fabrica* fabrica = nullptr;
 
-	instancia->getInstanciaFabrica();
+	fabrica->getInstanciaFabrica();
+
+	InterfazUsuario* InterfazUser = fabrica->getInstanciaUsuario();
+
+	InterfazUser->printss();
 
 
 	return 0;

@@ -27,4 +27,8 @@ Fabrica* Fabrica::getInstanciaFabrica()
 
 	return instancia;
 }
+ControladorUsuario* Fabrica::getInstanciaUsuario(){
+
+	return ControladorUsuario::getInstanciaControladorUsuario() ;
+}
 

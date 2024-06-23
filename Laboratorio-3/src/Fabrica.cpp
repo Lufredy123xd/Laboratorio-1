@@ -18,7 +18,7 @@ Fabrica::~Fabrica() {
 	// TODO Auto-generated destructor stub
 }
 
-Fabrica* Fabrica::getInstancia()
+Fabrica* Fabrica::getInstanciaFabrica()
 {
 	if (instancia == nullptr)
 	{

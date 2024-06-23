@@ -20,7 +20,7 @@ private:
 
 
 public:
-	Fabrica* getInstancia();
+	Fabrica* getInstanciaFabrica();
 
 	void printEnPantalla();
 

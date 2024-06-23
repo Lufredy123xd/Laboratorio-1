@@ -14,7 +14,7 @@ int main() {
 
 	Fabrica* instancia = nullptr;
 
-	instancia->getInstancia();
+	instancia->getInstanciaFabrica();
 
 	instancia->printEnPantalla();
 

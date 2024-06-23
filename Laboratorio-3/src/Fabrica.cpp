@@ -12,7 +12,7 @@ ControladorUsuario* Fabrica::instanciaUsuario = nullptr;
 
 Fabrica::Fabrica() {
 	// TODO Auto-generated constructor stub
-
+	instanciaUsuario = ControladorUsuario::getInstanciaControladorUsuario();
 }
 
 Fabrica::~Fabrica() {
@@ -26,7 +26,6 @@ Fabrica* Fabrica::getInstanciaFabrica()
 		instancia = new Fabrica();
 	}
 
-	instanciaUsuario = ControladorUsuario::getInstanciaControladorUsuario();
 
 	return instancia;
 }

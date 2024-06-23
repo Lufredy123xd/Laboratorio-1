@@ -9,7 +9,7 @@
 #define FABRICA_H_
 
 #include"ControladorUsuario.h"
-
+#include"ControladorSuscripcion.h"
 
 #include <iostream>
 using namespace std;
@@ -22,12 +22,14 @@ private:
 	static Fabrica* instancia;
 
 	static ControladorUsuario* instanciaUsuario; 
+	static ControladorSuscripcion* instanciaSuscripcion; 
 
 
 public:
 	Fabrica* getInstanciaFabrica();
 
 	ControladorUsuario* getInstanciaUsuario();
+	ControladorSuscripcion* getInstanciaSuscripcion();
 
 
 

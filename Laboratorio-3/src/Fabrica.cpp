@@ -9,10 +9,12 @@
 
 Fabrica* Fabrica::instancia = nullptr;
 ControladorUsuario* Fabrica::instanciaUsuario = nullptr;
+ControladorSuscripcion* Fabrica::instanciaSuscripcion = nullptr;
 
 Fabrica::Fabrica() {
 	// TODO Auto-generated constructor stub
 	instanciaUsuario = ControladorUsuario::getInstanciaControladorUsuario();
+	instanciaSuscripcion = ControladorSuscripcion::getInstanciaControladorSuscripcion();
 }
 
 Fabrica::~Fabrica() {
@@ -29,8 +31,13 @@ Fabrica* Fabrica::getInstanciaFabrica()
 
 	return instancia;
 }
+
 ControladorUsuario* Fabrica::getInstanciaUsuario(){
 
 	return this->instanciaUsuario ;
 }
 
+ControladorSuscripcion* Fabrica::getInstanciaSuscripcion(){
+
+	return this->instanciaSuscripcion ;
+}

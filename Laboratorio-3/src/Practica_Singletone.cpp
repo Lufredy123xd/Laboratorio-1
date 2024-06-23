@@ -1,5 +1,5 @@
 //============================================================================
-// Name        : Laboratorio-3.cpp
+// Name        : Practica_Singletone.cpp
 // Author      : 
 // Version     :
 // Copyright   : Your copyright notice
@@ -7,9 +7,17 @@
 //============================================================================
 
 #include <iostream>
+#include "Fabrica.h"
 using namespace std;
 
 int main() {
-	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+
+	Fabrica* instancia = nullptr;
+
+	instancia->getInstancia();
+
+	instancia->printEnPantalla();
+
+
 	return 0;
 }

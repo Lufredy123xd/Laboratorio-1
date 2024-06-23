@@ -1,71 +1,34 @@
-19:57:43 **** Incremental Build of configuration Debug for project Laboratorio-0 ****
+20:52:38 **** Incremental Build of configuration Debug for project Laboratorio-0 ****
 Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ControladorVideojuego.o" "..\\src\\ControladorVideojuego.cpp" 
-In file included from ..\src\ControladorVideojuego.cpp:8:0:
-..\src\ControladorVideojuego.h:13:24: warning: extra tokens at end of #include directive
- #include "Videojuego.h";
-                        ^
-..\src\ControladorVideojuego.cpp: In static member function 'static ControladorVideojuego* ControladorVideojuego::getInstanciaVideojuego()':
-..\src\ControladorVideojuego.cpp:26:1: warning: control reaches end of non-void function [-Wreturn-type]
- }
- ^
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Fabrica.o" "..\\src\\Fabrica.cpp" 
-In file included from ..\src\Fabrica.cpp:8:0:
-..\src\Fabrica.h:12:32: warning: extra tokens at end of #include directive
- #include "ControladorPartida.h";
-                                ^
-In file included from ..\src\Fabrica.cpp:8:0:
-..\src\Fabrica.h:13:38: warning: extra tokens at end of #include directive
- #include "ControladorSuscripciones.h";
-                                      ^
-In file included from ..\src\Fabrica.cpp:8:0:
-..\src\Fabrica.h:14:32: warning: extra tokens at end of #include directive
- #include "ControladorUsuario.h";
-                                ^
-In file included from ..\src\Fabrica.cpp:8:0:
-..\src\Fabrica.h:15:35: warning: extra tokens at end of #include directive
- #include "ControladorVideojuego.h";
-                                   ^
-In file included from ..\src\Fabrica.h:15:0,
-                 from ..\src\Fabrica.cpp:8:
-..\src\ControladorVideojuego.h:13:24: warning: extra tokens at end of #include directive
- #include "Videojuego.h";
-                        ^
-..\src\Fabrica.cpp: In static member function 'static ControladorUsuario* Fabrica::obtenerInstanciaUsuario()':
-..\src\Fabrica.cpp:35:51: error: 'ControladorUsuario::ControladorUsuario()' is private within this context
-         instanciaUsuario = new ControladorUsuario();
-                                                   ^
-In file included from ..\src\Fabrica.h:14:0,
-                 from ..\src\Fabrica.cpp:8:
-..\src\ControladorUsuario.h:21:2: note: declared private here
-  ControladorUsuario();
-  ^~~~~~~~~~~~~~~~~~
-..\src\Fabrica.cpp: In static member function 'static ControladorPartida* Fabrica::obtenerInstanciaPartida()':
-..\src\Fabrica.cpp:42:51: error: 'ControladorPartida::ControladorPartida()' is private within this context
-         instanciaPartida = new ControladorPartida();
-                                                   ^
-In file included from ..\src\Fabrica.h:12:0,
-                 from ..\src\Fabrica.cpp:8:
-..\src\ControladorPartida.h:20:2: note: declared private here
-  ControladorPartida();
-  ^~~~~~~~~~~~~~~~~~
-..\src\Fabrica.cpp: In static member function 'static ControladorSuscripciones* Fabrica::obtenerInstanciaSuscripcion()':
-..\src\Fabrica.cpp:49:61: error: 'ControladorSuscripciones::ControladorSuscripciones()' is private within this context
-         instanciaSuscripcion = new ControladorSuscripciones();
-                                                             ^
-In file included from ..\src\Fabrica.h:13:0,
-                 from ..\src\Fabrica.cpp:8:
-..\src\ControladorSuscripciones.h:19:2: note: declared private here
-  ControladorSuscripciones();
-  ^~~~~~~~~~~~~~~~~~~~~~~~
-..\src\Fabrica.cpp: In static member function 'static ControladorVideojuego* Fabrica::obtenerInstanciaVideojuego()':
-..\src\Fabrica.cpp:56:35: error: expected type-specifier before 'ControladorOtro'
-         instanciaVideojuego = new ControladorOtro();
-                                   ^~~~~~~~~~~~~~~
-..\src\Fabrica.cpp: In static member function 'static Fabrica* Fabrica::getInstanciaFabrica()':
-..\src\Fabrica.cpp:30:1: warning: control reaches end of non-void function [-Wreturn-type]
- }
- ^
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterfazControladorUsuario.o" "..\\src\\InterfazControladorUsuario.cpp" 
+In file included from ..\src\InterfazControladorUsuario.cpp:8:0:
+..\src\InterfazControladorUsuario.h:19:7: error: initializer specified for non-virtual method 'void InterfazControladorUsuario::ingresarDatosUsuarios()'
+  void ingresarDatosUsuarios()=0;
+       ^~~~~~~~~~~~~~~~~~~~~
+..\src\InterfazControladorUsuario.h:20:8: error: initializer specified for non-virtual method 'void InterfazControladorUsuario::ingresarDatosDesarollador(std::__cxx11::string)'
+   void ingresarDatosDesarollador(string)=0;
+        ^~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\InterfazControladorUsuario.h:21:8: error: initializer specified for non-virtual method 'void InterfazControladorUsuario::ingresarDatosJugador(std::__cxx11::string)'
+   void ingresarDatosJugador(string)=0;
+        ^~~~~~~~~~~~~~~~~~~~
+..\src\InterfazControladorUsuario.h:22:8: error: initializer specified for non-virtual method 'void InterfazControladorUsuario::iniciarSesion()'
+   void iniciarSesion()=0;
+        ^~~~~~~~~~~~~
+..\src\InterfazControladorUsuario.h:23:8: error: initializer specified for non-virtual method 'void InterfazControladorUsuario::confirmarAlta()'
+   void confirmarAlta()=0;
+        ^~~~~~~~~~~~~
+..\src\InterfazControladorUsuario.h:24:8: error: initializer specified for non-virtual method 'void InterfazControladorUsuario::cancelarAlta()'
+   void cancelarAlta()=0;
+        ^~~~~~~~~~~~
+..\src\InterfazControladorUsuario.h:25:8: error: initializer specified for non-virtual method 'void InterfazControladorUsuario::ingresarJugadorPartida(std::__cxx11::string)'
+   void ingresarJugadorPartida(string)=0;
+        ^~~~~~~~~~~~~~~~~~~~~~
+..\src\InterfazControladorUsuario.h:26:8: error: initializer specified for non-virtual method 'void InterfazControladorUsuario::jugadorSeRetiraDeLaPartida(std::__cxx11::string)'
+   void jugadorSeRetiraDeLaPartida(string)=0;
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\InterfazControladorUsuario.h:27:8: error: initializer specified for non-virtual method 'void InterfazControladorUsuario::seleccionarJugadoresSeguir()'
+   void seleccionarJugadoresSeguir()=0;
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~
 
-19:57:44 Build Failed. 4 errors, 8 warnings. (took 1s.37ms)
+20:52:39 Build Failed. 9 errors, 0 warnings. (took 480ms)
 

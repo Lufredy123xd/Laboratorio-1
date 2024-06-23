@@ -1,0 +1,84 @@
+
+#include <iostream>
+#include <vector>
+
+#include "Jugador.h"
+#include "Videojuego.h"
+#include "Partida.h"
+#include "Sistema.h"
+#include "ControladorPartida.h";
+using namespace std;
+
+
+
+int main() {
+
+	int opcion = 0;
+	Partida *partidaUsar = NULL;
+	string nameJ, nameV;
+	
+	Sistema *sis = new Sistema();
+
+	do {
+		cout << "------------Bienvenido----------" << endl;
+		cout << "Ingrese 1:Agregar Jugador. " << endl;
+		cout << "Ingrese 2:Agregar Videojuego. " << endl;
+		cout << "Ingrese 3:Obtener Jugadores. " << endl;
+		cout << "Ingrese 4:Obtener videojuegos. " << endl;
+		cout << "Ingrese 5:obtener partidas. " << endl;
+		cout << "Ingrese 6:Iniciar partidas. " << endl;
+		cout << "Ingrese 0:Salir. " << endl;
+		cout << "---------------------------------" << endl;
+		cin >> opcion;
+
+		switch (opcion) {
+
+			case 1: 
+				sis->agregarJugador();
+
+				break;
+			
+
+			case 2: 
+				sis->agregarVideojuego();
+				break;
+			
+
+			case 3:
+				sis->mostrarJugadores();
+
+
+				break;
+
+			case 4:
+				sis->mostrarVideojuegos();
+				break;
+			case 5:
+					cout<<"Ingrese el nombre del Videojuego: "<<endl;
+					cin>>nameV;
+					sis->mostrarPartida(sis->obtenerPartidas(nameV,0));
+				break;
+			case 6:
+				cout<<"ingrese el nombre del Jugador"<<endl;
+				cin.ignore();
+				getline(cin, nameJ);
+				cout<<"ingrese el nombre del Videojuego"<<endl;
+				getline(cin, nameV);
+
+				sis->agregarPartida();
+				partidaUsar = sis->partidas.back();
+				sis->iniciarPartida(nameJ, nameV, partidaUsar);
+				break;
+
+
+		
+		}
+
+	} while (opcion != 0);
+
+	return 0;
+
+}
+
+
+

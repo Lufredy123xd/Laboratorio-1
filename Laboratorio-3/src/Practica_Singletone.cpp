@@ -8,7 +8,11 @@
 
 #include <iostream>
 #include "Fabrica.h"
-#include"InterfazUsuario.h"
+
+#include"Interfaces/InterfazUsuario.h"
+#include"Interfaces/InterfazPartida.h"
+#include"Interfaces/InterfazSuscripcion.h"
+#include"Interfaces/InterfazVideojuego.h"
 
 using namespace std;
 

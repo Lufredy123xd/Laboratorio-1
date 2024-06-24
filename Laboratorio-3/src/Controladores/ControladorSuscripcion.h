@@ -9,7 +9,7 @@
 #define CONTROLADORSuscripcion_H_
 #include <iostream>
 using namespace std;
-#include "InterfazSuscripcion.h"
+#include "../Interfaces/InterfazSuscripcion.h"
 
 class ControladorSuscripcion : public InterfazSuscripcion{
 private:

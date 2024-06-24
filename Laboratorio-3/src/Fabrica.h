@@ -10,10 +10,10 @@
 
 #include <iostream>
 
-#include"ControladorUsuario.h"
-#include "ControladorVideojuego.h"
-#include "ControladorPartida.h"
-#include"ControladorSuscripcion.h"
+#include"Controladores/ControladorUsuario.h"
+#include "Controladores/ControladorVideojuego.h"
+#include "Controladores/ControladorPartida.h"
+#include"Controladores/ControladorSuscripcion.h"
 
 using namespace std;
 

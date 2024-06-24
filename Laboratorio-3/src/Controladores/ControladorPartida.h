@@ -8,7 +8,7 @@
 #ifndef CONTROLADORPARTIDA_H_
 #define CONTROLADORPARTIDA_H_
 
-#include "InterfazPartida.h"
+#include "../Interfaces/InterfazPartida.h"
 
 class ControladorPartida : public InterfazPartida {
 

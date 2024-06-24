@@ -8,7 +8,7 @@
 #ifndef CONTROLADORVIDEOJUEGO_H_
 #define CONTROLADORVIDEOJUEGO_H_
 
-#include "InterfazVideojuego.h"
+#include "../Interfaces/InterfazVideojuego.h"
 
 class ControladorVideojuego : public InterfazVideojuego{
 

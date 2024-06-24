@@ -15,7 +15,7 @@ using namespace std;
 
 class Desarrollador: public Usuario {
 private:
-
+	string nombreEmpresa;
 public:
 	Desarrollador();
 	virtual ~Desarrollador();

@@ -15,7 +15,8 @@ using namespace std;
 
 class Jugador : public Usuario{
 private:
-
+	string nickname;
+	string descripcion;
 public:
 	Jugador();
 	virtual ~Jugador();

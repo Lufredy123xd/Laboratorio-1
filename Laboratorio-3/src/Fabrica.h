@@ -13,6 +13,7 @@
 #include"ControladorUsuario.h"
 #include "ControladorVideojuego.h"
 #include "ControladorPartida.h"
+#include"ControladorSuscripcion.h"
 
 using namespace std;
 
@@ -28,6 +29,7 @@ private:
 	static ControladorUsuario* instanciaUsuario; 
 	static ControladorVideojuego* instanciaVideojuego;
 	static ControladorPartida* instanciaPartida;
+	static ControladorSuscripcion* instanciaSuscripcion; 
 
 
 public:
@@ -36,6 +38,7 @@ public:
 	ControladorUsuario* getInstanciaUsuario();
 	ControladorVideojuego* getInstanciaVideojuego();
 	ControladorPartida* getInstanciaPartida();
+	ControladorSuscripcion* getInstanciaSuscripcion();
 
 
 

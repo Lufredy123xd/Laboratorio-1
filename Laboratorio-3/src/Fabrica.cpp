@@ -12,12 +12,14 @@ Fabrica* Fabrica::instancia = nullptr;
 ControladorUsuario* Fabrica::instanciaUsuario = nullptr;
 ControladorVideojuego* Fabrica::instanciaVideojuego = nullptr;
 ControladorPartida* Fabrica::instanciaPartida = nullptr;
+ControladorSuscripcion* Fabrica::instanciaSuscripcion = nullptr;
 
 Fabrica::Fabrica() {
 	// TODO Auto-generated constructor stub
 	instanciaUsuario = ControladorUsuario::getInstanciaControladorUsuario();
 	instanciaVideojuego = ControladorVideojuego::getInstanciaControladorVideojuego();
 	instanciaPartida = ControladorPartida::getInstanciaControladorPartida();
+	instanciaSuscripcion = ControladorSuscripcion::getInstanciaControladorSuscripcion();
 
 }
 
@@ -49,5 +51,9 @@ ControladorVideojuego* Fabrica::getInstanciaVideojuego()
 ControladorPartida* Fabrica::getInstanciaPartida()
 {
 	return this->instanciaPartida;
+}
+ControladorSuscripcion* Fabrica::getInstanciaSuscripcion(){
+
+	return this->instanciaSuscripcion ;
 }
 

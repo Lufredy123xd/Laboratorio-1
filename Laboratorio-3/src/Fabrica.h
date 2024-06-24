@@ -8,28 +8,34 @@
 #ifndef FABRICA_H_
 #define FABRICA_H_
 
-#include"ControladorUsuario.h"
-#include"ControladorSuscripcion.h"
-
 #include <iostream>
+
+#include"ControladorUsuario.h"
+#include "ControladorVideojuego.h"
+#include "ControladorPartida.h"
+
 using namespace std;
+
 
 class Fabrica {
 
 private:
 	Fabrica();
 	virtual ~Fabrica();
+
 	static Fabrica* instancia;
 
 	static ControladorUsuario* instanciaUsuario; 
-	static ControladorSuscripcion* instanciaSuscripcion; 
+	static ControladorVideojuego* instanciaVideojuego;
+	static ControladorPartida* instanciaPartida;
 
 
 public:
 	Fabrica* getInstanciaFabrica();
 
 	ControladorUsuario* getInstanciaUsuario();
-	ControladorSuscripcion* getInstanciaSuscripcion();
+	ControladorVideojuego* getInstanciaVideojuego();
+	ControladorPartida* getInstanciaPartida();
 
 
 

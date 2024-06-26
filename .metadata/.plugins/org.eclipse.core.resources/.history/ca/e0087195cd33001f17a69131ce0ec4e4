@@ -1,0 +1,21 @@
+/*
+ * TipoCategoria.h
+ *
+ *  Created on: 26 jun. 2024
+ *      Author: Windows-User
+ */
+
+#ifndef ENUMS_TIPOCATEGORIA_H_
+#define ENUMS_TIPOCATEGORIA_H_
+
+class TipoCategoria {
+
+public:
+	TipoCategoria();
+
+	enum tipoCategoria{Plataforma, Genero, otros};
+
+	virtual ~TipoCategoria();
+};
+
+#endif /* ENUMS_TIPOCATEGORIA_H_ */

@@ -1,11 +1,8 @@
-10:31:20 **** Incremental Build of configuration Debug for project Laboratorio-3 ****
+12:04:50 **** Incremental Build of configuration Debug for project Laboratorio-3 ****
 Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clases\\Multijugador.o" "..\\src\\Clases\\Multijugador.cpp" 
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clases\\Jugador.o" "..\\src\\Clases\\Jugador.cpp" 
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clases\\Comentario.o" "..\\src\\Clases\\Comentario.cpp" 
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\DataTypes\\DtFecha.o" "..\\src\\DataTypes\\DtFecha.cpp" 
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clases\\Partida.o" "..\\src\\Clases\\Partida.cpp" 
-g++ -o Laboratorio-3.exe "src\\Clases\\Abandona.o" "src\\Clases\\Comentario.o" "src\\Clases\\Desarrollador.o" "src\\Clases\\Individual.o" "src\\Clases\\Jugador.o" "src\\Clases\\Multijugador.o" "src\\Clases\\Partida.o" "src\\Clases\\Suscripcion.o" "src\\Clases\\Temporal.o" "src\\Clases\\Usuario.o" "src\\Clases\\Vitalicia.o" "src\\Controladores\\ControladorPartida.o" "src\\Controladores\\ControladorSuscripcion.o" "src\\Controladores\\ControladorUsuario.o" "src\\Controladores\\ControladorVideojuego.o" "src\\DataTypes\\DtFecha.o" "src\\Fabrica.o" "src\\Interfaces\\InterfazPartida.o" "src\\Interfaces\\InterfazSuscripcion.o" "src\\Interfaces\\InterfazUsuario.o" "src\\Interfaces\\InterfazVideojuego.o" "src\\Practica_Singletone.o" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Enums\\TipoCategoria.o" "..\\src\\Enums\\TipoCategoria.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clases\\Categoria.o" "..\\src\\Clases\\Categoria.cpp" 
+g++ -o Laboratorio-3.exe "src\\Clases\\Abandona.o" "src\\Clases\\Categoria.o" "src\\Clases\\Comentario.o" "src\\Clases\\Desarrollador.o" "src\\Clases\\Individual.o" "src\\Clases\\Jugador.o" "src\\Clases\\Multijugador.o" "src\\Clases\\Partida.o" "src\\Clases\\Suscripcion.o" "src\\Clases\\Temporal.o" "src\\Clases\\Usuario.o" "src\\Clases\\Vitalicia.o" "src\\Controladores\\ControladorPartida.o" "src\\Controladores\\ControladorSuscripcion.o" "src\\Controladores\\ControladorUsuario.o" "src\\Controladores\\ControladorVideojuego.o" "src\\DataTypes\\DtFecha.o" "src\\Enums\\TipoCategoria.o" "src\\Fabrica.o" "src\\Interfaces\\InterfazPartida.o" "src\\Interfaces\\InterfazSuscripcion.o" "src\\Interfaces\\InterfazUsuario.o" "src\\Interfaces\\InterfazVideojuego.o" "src\\Practica_Singletone.o" 
 
-10:31:23 Build Finished. 0 errors, 0 warnings. (took 3s.31ms)
+12:04:54 Build Finished. 0 errors, 0 warnings. (took 3s.228ms)
 

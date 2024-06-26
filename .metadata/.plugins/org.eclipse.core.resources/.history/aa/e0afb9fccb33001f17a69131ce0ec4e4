@@ -8,9 +8,7 @@
 #ifndef CLASES_INDIVIDUAL_H_
 #define CLASES_INDIVIDUAL_H_
 
-#include "Partida.h"
-
-class Individual:public Partida {
+class Individual {
 private:
 	bool partidaNueva;
 	bool partidaAnterior;

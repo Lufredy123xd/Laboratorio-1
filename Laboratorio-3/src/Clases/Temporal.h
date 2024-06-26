@@ -1,24 +1,19 @@
 /*
  * Temporal.h
  *
- *  Created on: 24 jun. 2024
- *      Author: Valentino Vignolo
+ *  Created on: 26 jun. 2024
+ *      Author: n1c0l
  */
 
-#ifndef TEMPORAL_H_
-#define TEMPORAL_H_
-
-#include <iostream>
-using namespace std;
+#ifndef CLASES_TEMPORAL_H_
+#define CLASES_TEMPORAL_H_
 
 #include "Suscripcion.h"
 
 class Temporal : public Suscripcion {
-private:
-	int cuotaMensual;
 public:
 	Temporal();
 	virtual ~Temporal();
 };
 
-#endif /* TEMPORAL_H_ */
+#endif /* CLASES_TEMPORAL_H_ */

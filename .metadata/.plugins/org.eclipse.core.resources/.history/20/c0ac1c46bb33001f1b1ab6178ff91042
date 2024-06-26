@@ -1,0 +1,53 @@
+/*
+ * DtFecha.cpp
+ *
+ *  Created on: 26 jun. 2024
+ *      Author: Windows-User
+ */
+
+#include "DtFecha.h"
+
+DtFecha::DtFecha() {
+	// TODO Auto-generated constructor stub
+
+}
+
+DtFecha::~DtFecha() {
+	// TODO Auto-generated destructor stub
+}
+
+int DtFecha::getAnio() {
+}
+
+int DtFecha::getMes() {
+}
+
+int DtFecha::getDia() {
+}
+
+int DtFecha::getHora() {
+}
+
+int DtFecha::getMinuto() {
+}
+
+int DtFecha::getSegundo() {
+}
+
+void DtFecha::setAnio(int int1) {
+}
+
+void DtFecha::setMes(int int1) {
+}
+
+void DtFecha::setDia(int int1) {
+}
+
+void DtFecha::setHora(int int1) {
+}
+
+void DtFecha::setMinuto(int int1) {
+}
+
+void DtFecha::setSegundo(int int1) {
+}

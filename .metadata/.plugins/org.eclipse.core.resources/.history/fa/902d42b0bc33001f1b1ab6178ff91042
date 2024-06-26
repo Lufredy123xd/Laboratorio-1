@@ -1,0 +1,23 @@
+/*
+ * Abandona.h
+ *
+ *  Created on: 26 jun. 2024
+ *      Author: Windows-User
+ */
+
+#ifndef CLASES_ABANDONA_H_
+#define CLASES_ABANDONA_H_
+
+class Abandona {
+private:
+	int horaAbandono;
+
+public:
+
+	Abandona();
+	int gethoraAbandono();
+	void setHoraAbandono(int);
+	virtual ~Abandona();
+};
+
+#endif /* CLASES_ABANDONA_H_ */

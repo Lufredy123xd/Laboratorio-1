@@ -1,31 +1,8 @@
-20:52:38 **** Incremental Build of configuration Debug for project Laboratorio-0 ****
+10:31:20 **** Incremental Build of configuration Debug for project Laboratorio-3 ****
 Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterfazControladorUsuario.o" "..\\src\\InterfazControladorUsuario.cpp" 
-In file included from ..\src\InterfazControladorUsuario.cpp:8:0:
-..\src\InterfazControladorUsuario.h:19:7: error: initializer specified for non-virtual method 'void InterfazControladorUsuario::ingresarDatosUsuarios()'
-  void ingresarDatosUsuarios()=0;
-       ^~~~~~~~~~~~~~~~~~~~~
-..\src\InterfazControladorUsuario.h:20:8: error: initializer specified for non-virtual method 'void InterfazControladorUsuario::ingresarDatosDesarollador(std::__cxx11::string)'
-   void ingresarDatosDesarollador(string)=0;
-        ^~~~~~~~~~~~~~~~~~~~~~~~~
-..\src\InterfazControladorUsuario.h:21:8: error: initializer specified for non-virtual method 'void InterfazControladorUsuario::ingresarDatosJugador(std::__cxx11::string)'
-   void ingresarDatosJugador(string)=0;
-        ^~~~~~~~~~~~~~~~~~~~
-..\src\InterfazControladorUsuario.h:22:8: error: initializer specified for non-virtual method 'void InterfazControladorUsuario::iniciarSesion()'
-   void iniciarSesion()=0;
-        ^~~~~~~~~~~~~
-..\src\InterfazControladorUsuario.h:23:8: error: initializer specified for non-virtual method 'void InterfazControladorUsuario::confirmarAlta()'
-   void confirmarAlta()=0;
-        ^~~~~~~~~~~~~
-..\src\InterfazControladorUsuario.h:24:8: error: initializer specified for non-virtual method 'void InterfazControladorUsuario::cancelarAlta()'
-   void cancelarAlta()=0;
-        ^~~~~~~~~~~~
-..\src\InterfazControladorUsuario.h:25:8: error: initializer specified for non-virtual method 'void InterfazControladorUsuario::ingresarJugadorPartida(std::__cxx11::string)'
-   void ingresarJugadorPartida(string)=0;
-        ^~~~~~~~~~~~~~~~~~~~~~
-..\src\InterfazControladorUsuario.h:26:8: error: initializer specified for non-virtual method 'void InterfazControladorUsuario::jugadorSeRetiraDeLaPartida(std::__cxx11::string)'
-   void jugadorSeRetiraDeLaPartida(string)=0;
-        ^~~~~~~~~~~~~~~~~~~~~~~~~~
-..\src\InterfazControladorUsuario.h:27:8: error: initializer specified for non-virtual method 'void InterfazControladorUsuario::seleccionarJugadoresSeguir()'
-   void seleccionarJugadoresSeguir()=0;
-        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clases\\Multijugador.o" "..\\src\\Clases\\Multijugador.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clases\\Jugador.o" "..\\src\\Clases\\Jugador.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clases\\Comentario.o" "..\\src\\Clases\\Comentario.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\DataTypes\\DtFecha.o" "..\\src\\DataTypes\\DtFecha.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clases\\Partida.o" "..\\src\\Clases\\Partida.cpp" 
+g++ -o Laboratorio-3.exe "src\\Clases\\Abandona.o" "src\\Clases\\Comentario.o" "src\\Clases\\Desarrollador.o" "src\\Clases\\Individual.o" "src\\Clases\\Jugador.o" "src\\Clases\\Multijugador.o" "src\\Clases\\Partida.o" "src\\Clases\\Suscripcion.o" "src\\Clases\\Temporal.o" "src\\Clases\\Usuario.o" "src\\Clases\\Vitalicia.o" "src\\Controladores\\ControladorPartida.o" "src\\Controladores\\ControladorSuscripcion.o" "src\\Controladores\\ControladorUsuario.o" "src\\Controladores\\ControladorVideojuego.o" "src\\DataTypes\\DtFecha.o" "src\\Fabrica.o" "src\\Interfaces\\InterfazPartida.o" "src\\Interfaces\\InterfazSuscripcion.o" "src\\Interfaces\\InterfazUsuario.o" "src\\Interfaces\\InterfazVideojuego.o" "src\\Practica_Singletone.o" 

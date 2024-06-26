@@ -1,0 +1,17 @@
+/*
+ * Comentario.h
+ *
+ *  Created on: 26 jun. 2024
+ *      Author: Windows-User
+ */
+
+#ifndef CLASES_COMENTARIO_H_
+#define CLASES_COMENTARIO_H_
+
+class Comentario {
+public:
+	Comentario();
+	virtual ~Comentario();
+};
+
+#endif /* CLASES_COMENTARIO_H_ */

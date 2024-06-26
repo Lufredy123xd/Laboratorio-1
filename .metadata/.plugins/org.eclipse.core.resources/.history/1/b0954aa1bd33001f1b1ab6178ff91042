@@ -1,0 +1,25 @@
+/*
+ * Partida.h
+ *
+ *  Created on: 26 jun. 2024
+ *      Author: Windows-User
+ */
+
+#ifndef CLASES_PARTIDA_H_
+#define CLASES_PARTIDA_H_
+
+#include "Jugador.h";
+#include "<vector>";
+
+class Partida {
+
+private:
+	int totalHorasJugadas;
+public:
+	Partida();
+	int getTotalHorasJugadas();
+	void setTotalHorasJugadas(int);
+	virtual ~Partida();
+};
+
+#endif /* CLASES_PARTIDA_H_ */

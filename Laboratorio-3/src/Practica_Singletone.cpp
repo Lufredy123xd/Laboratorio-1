@@ -7,6 +7,7 @@
 //============================================================================
 
 #include <iostream>
+using namespace std;
 #include "Fabrica.h"
 
 #include"Interfaces/InterfazUsuario.h"
@@ -14,7 +15,7 @@
 #include"Interfaces/InterfazSuscripcion.h"
 #include"Interfaces/InterfazVideojuego.h"
 
-using namespace std;
+
 
 int main() {
 

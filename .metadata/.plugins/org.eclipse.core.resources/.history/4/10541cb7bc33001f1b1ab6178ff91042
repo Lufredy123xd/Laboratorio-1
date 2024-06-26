@@ -1,0 +1,18 @@
+/*
+ * Abandona.cpp
+ *
+ *  Created on: 26 jun. 2024
+ *      Author: Windows-User
+ */
+
+#include "Abandona.h"
+
+Abandona::Abandona() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Abandona::~Abandona() {
+	// TODO Auto-generated destructor stub
+}
+

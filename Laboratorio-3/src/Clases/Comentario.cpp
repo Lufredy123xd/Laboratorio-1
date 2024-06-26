@@ -1,0 +1,47 @@
+/*
+ * Comentario.cpp
+ *
+ *  Created on: 26 jun. 2024
+ *      Author: Luciano Guerrero
+ */
+
+#include "Comentario.h"
+
+Comentario::Comentario() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Comentario::~Comentario() {
+	// TODO Auto-generated destructor stub
+}
+
+DtFecha* Comentario::getFechaEnvio()
+{
+	return this->fechaEnvio;
+}
+
+DtFecha* Comentario::getHoraEnvio()
+{
+	return this->horaEnvio;
+}
+
+string Comentario::getTextoMensaje()
+{
+	return this->textoMensaje;
+}
+
+void Comentario::setFechaEnvio(DtFecha* fechaEnvio)
+{
+	this->fechaEnvio=fechaEnvio;
+}
+
+void Comentario::setHoraEnvio(DtFecha* horaEnvio)
+{
+	this->horaEnvio=horaEnvio;
+}
+
+void Comentario::setTextoMensaje(string textoMensaje)
+{
+	this->textoMensaje=textoMensaje;
+}

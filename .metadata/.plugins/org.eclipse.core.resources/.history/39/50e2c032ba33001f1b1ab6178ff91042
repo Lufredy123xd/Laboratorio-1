@@ -1,0 +1,17 @@
+/*
+ * DtFecha.h
+ *
+ *  Created on: 26 jun. 2024
+ *      Author: Windows-User
+ */
+
+#ifndef DATATYPES_DTFECHA_H_
+#define DATATYPES_DTFECHA_H_
+
+class DtFecha {
+public:
+	DtFecha();
+	virtual ~DtFecha();
+};
+
+#endif /* DATATYPES_DTFECHA_H_ */

@@ -1,0 +1,28 @@
+/*
+ * Individual.h
+ *
+ *  Created on: 26 jun. 2024
+ *      Author: Windows-User
+ */
+
+#ifndef CLASES_INDIVIDUAL_H_
+#define CLASES_INDIVIDUAL_H_
+
+class Individual {
+private:
+	bool partidaNueva;
+	bool partidaAnterior;
+
+public:
+	Individual();
+
+	bool getPartidaNueva();
+	bool getPartidaAnterior();
+
+	void setPartidaNueva(bool);
+	void setPartidaAnterior(bool);
+
+	virtual ~Individual();
+};
+
+#endif /* CLASES_INDIVIDUAL_H_ */

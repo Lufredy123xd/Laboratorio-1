@@ -1,0 +1,18 @@
+/*
+ * Multijugador.cpp
+ *
+ *  Created on: 26 jun. 2024
+ *      Author: Windows-User
+ */
+
+#include "Multijugador.h"
+
+Multijugador::Multijugador() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Multijugador::~Multijugador() {
+	// TODO Auto-generated destructor stub
+}
+

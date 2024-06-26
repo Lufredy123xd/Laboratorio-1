@@ -1,0 +1,35 @@
+/*
+ * Multijugador.cpp
+ *
+ *  Created on: 26 jun. 2024
+ *      Author: Windows-User
+ */
+
+#include "Multijugador.h"
+
+Multijugador::Multijugador() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Multijugador::~Multijugador() {
+	// TODO Auto-generated destructor stub
+}
+
+int Multijugador::getCantJugadores() {
+}
+
+bool Multijugador::getTrasmitidaVivo() {
+}
+
+int Multijugador::getDuracionTotal() {
+}
+
+void Multijugador::setCantJugadores(int int1) {
+}
+
+void Multijugador::setTrasmitidaVivo(bool bool1) {
+}
+
+void Multijugador::setDuracionTotal(int int1) {
+}

@@ -1,18 +1,28 @@
 /*
  * Vitalicia.cpp
  *
- *  Created on: 24 jun. 2024
- *      Author: Valentino Vignolo
+ *  Created on: 26 jun. 2024
+ *      Author: n1c0l
  */
 
 #include "Vitalicia.h"
 
 Vitalicia::Vitalicia() {
-	// TODO Esbozo de constructor generado automáticamente
+	// TODO Auto-generated constructor stub
 
 }
 
 Vitalicia::~Vitalicia() {
-	// TODO Esbozo de destructor generado automáticamente
+	// TODO Auto-generated destructor stub
 }
 
+void Vitalicia::setPagoUnico(int pago)
+{
+	this->pagoUnico = pago;
+}
+
+
+int Vitalicia::getPagoUnico()
+{
+	return this->pagoUnico;
+}

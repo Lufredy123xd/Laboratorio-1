@@ -1,18 +1,27 @@
 /*
  * Suscripcion.cpp
  *
- *  Created on: 24 jun. 2024
- *      Author: Valentino Vignolo
+ *  Created on: 26 jun. 2024
+ *      Author: n1c0l
  */
 
 #include "Suscripcion.h"
 
 Suscripcion::Suscripcion() {
-	// TODO Esbozo de constructor generado automáticamente
+	// TODO Auto-generated constructor stub
 
 }
 
 Suscripcion::~Suscripcion() {
-	// TODO Esbozo de destructor generado automáticamente
+	// TODO Auto-generated destructor stub
 }
 
+void Suscripcion::setValidez(Validez validez)
+{
+	this->validez = validez;
+}
+
+Suscripcion::Validez Suscripcion::getValidez()
+{
+	return validez;
+}

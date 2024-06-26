@@ -1,23 +1,26 @@
 /*
  * Vitalicia.h
  *
- *  Created on: 24 jun. 2024
- *      Author: Valentino Vignolo
+ *  Created on: 26 jun. 2024
+ *      Author: n1c0l
  */
 
-#ifndef VITALICIA_H_
-#define VITALICIA_H_
-#include <iostream>
-using namespace std;
+#ifndef CLASES_VITALICIA_H_
+#define CLASES_VITALICIA_H_
 
-#include"Suscripcion.h"
+#include "Suscripcion.h"
 
-class Vitalicia : public Suscripcion{
-private:
-	int pagoUnico;
+class Vitalicia : public Suscripcion {
+
 public:
 	Vitalicia();
 	virtual ~Vitalicia();
+
+	int getPagoUnico();
+	void setPagoUnico(int);
+
+private:
+	int pagoUnico;
 };
 
-#endif /* VITALICIA_H_ */
+#endif /* CLASES_VITALICIA_H_ */

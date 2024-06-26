@@ -1,25 +1,31 @@
 /*
  * Suscripcion.h
  *
- *  Created on: 24 jun. 2024
- *      Author: Valentino Vignolo
+ *  Created on: 26 jun. 2024
+ *      Author: n1c0l
  */
 
-#ifndef SUSCRIPCION_H_
-#define SUSCRIPCION_H_
+#ifndef CLASES_SUSCRIPCION_H_
+#define CLASES_SUSCRIPCION_H_
 
 #include <iostream>
 using namespace std;
 
 class Suscripcion {
 
-enum validez{mensual, trimestre, anual, ilimitado};
+	enum Validez {
+		Mensual, Trimestral, Anual, Ilimitado
+	};
 
-private:
-	validez tipoValidez ;
 public:
 	Suscripcion();
 	virtual ~Suscripcion();
+
+	Validez getValidez();
+	void setValidez(Validez);
+
+private:
+	Validez validez;
 };
 
-#endif /* SUSCRIPCION_H_ */
+#endif /* CLASES_SUSCRIPCION_H_ */

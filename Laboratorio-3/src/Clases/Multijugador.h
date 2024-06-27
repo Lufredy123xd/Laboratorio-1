@@ -15,21 +15,12 @@ using namespace std;
 #include "Partida.h"
 #include <vector>
 
-class Multijugador : public Partida {
-
-private:
-
-vector<Comentario*> vectorComentario;
-
-int cantJugadores;
-bool trasmitidaVivo;
-int duracionTotal;
+class Multijugador: public Partida {
 
 public:
 	Multijugador();
 
-	vector<Comentario*> getvectorComentario();
-	void setVectorComentario(vector<Comentario*>);
+	vector<Comentario*> vectorComentario;
 
 	int getCantJugadores();
 	bool getTrasmitidaVivo();
@@ -40,6 +31,11 @@ public:
 	void setDuracionTotal(int);
 
 	virtual ~Multijugador();
+
+private:
+	int cantJugadores;
+	bool trasmitidaVivo;
+	int duracionTotal;
 };
 
 #endif /* CLASES_MULTIJUGADOR_H_ */

@@ -10,8 +10,7 @@
 
 #include "Partida.h"
 
-class Individual:public Partida
-{
+class Individual : public Partida {
 private:
 	bool partidaNueva;
 	bool partidaAnterior;

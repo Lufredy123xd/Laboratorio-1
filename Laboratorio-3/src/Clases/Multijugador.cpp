@@ -46,12 +46,3 @@ void Multijugador::setDuracionTotal(int duracionTotal)
 	this->duracionTotal=duracionTotal;
 }
 
-vector<Comentario*> Multijugador::getvectorComentario()
-{
-	return this->vectorComentario;
-}
-
-void Multijugador::setVectorComentario(vector<Comentario*> vectorComentario)
-{
-	this->vectorComentario=vectorComentario;
-}

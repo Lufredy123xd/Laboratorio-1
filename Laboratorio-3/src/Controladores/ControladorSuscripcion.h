@@ -8,22 +8,29 @@
 #ifndef CONTROLADORSuscripcion_H_
 #define CONTROLADORSuscripcion_H_
 #include <iostream>
-using namespace std;
-#include <vector>
 #include "../Clases/Suscripcion.h"
 #include "../Interfaces/InterfazSuscripcion.h"
+#include "../Clases/HistorialSuscripcionJugador.h"
+#include "../Clases/CancelacionTemporalJugador.h"
 
-class ControladorSuscripcion : public InterfazSuscripcion{
-private:
-	ControladorSuscripcion();
-	virtual ~ControladorSuscripcion();
+using namespace std;
+#include <vector>
 
-	static ControladorSuscripcion* instancia;
+class ControladorSuscripcion: public InterfazSuscripcion {
 
 public:
 	static ControladorSuscripcion* getInstanciaControladorSuscripcion();
 	void printss();
+
 	vector<Suscripcion*> suscripciones;
+	vector<HistorialSuscripcionJugador*> historialSuscripcion;
+	vector<CancelacionTemporalJugador*> cancelacionTemporal;
+
+
+private:
+	ControladorSuscripcion();
+	virtual ~ControladorSuscripcion();
+	static ControladorSuscripcion *instancia;
 };
 
 #endif /* CONTROLADORSuscripcion_H_ */

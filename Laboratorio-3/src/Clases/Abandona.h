@@ -12,21 +12,20 @@
 #include <vector>
 
 class Abandona {
-private:
-	vector<Multijugador*> vectorMultijugador;
-	int horaAbandono;
 
 public:
-
 	Abandona();
 
-	vector<Multijugador*> getVectorMultijugador();
-	void setVectorMultijugador(vector<Multijugador*>);
+	vector<Multijugador*> vectorMultijugador;
 
 	int gethoraAbandono();
 	void setHoraAbandono(int);
 
 	virtual ~Abandona();
+
+private:
+	int horaAbandono;
+
 };
 
 #endif /* CLASES_ABANDONA_H_ */

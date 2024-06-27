@@ -11,6 +11,7 @@
 class InterfazVideojuego {
 public:
 	InterfazVideojuego();
+	virtual void holaVideojuego()=0;
 	virtual ~InterfazVideojuego();
 };
 

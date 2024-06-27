@@ -22,7 +22,7 @@ private:
 
 public:
 	static ControladorSuscripcion* getInstanciaControladorSuscripcion();
-	void printss();
+	void holaSuscripcion();
 	vector<Suscripcion*> suscripciones;
 };
 

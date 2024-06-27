@@ -28,3 +28,7 @@ ControladorPartida* ControladorPartida::getInstanciaControladorPartida()
 	return instancia;
 }
 
+void ControladorPartida::holaPartida()
+{
+	cout<<"Hola soy una partida"<<endl;
+}

@@ -10,6 +10,8 @@
 
 class InterfazPartida {
 public:
+	virtual void holaPartida()=0;
+
 	InterfazPartida();
 	virtual ~InterfazPartida();
 };

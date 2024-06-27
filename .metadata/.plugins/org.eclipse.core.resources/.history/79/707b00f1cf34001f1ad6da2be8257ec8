@@ -1,0 +1,32 @@
+/*
+ * ControladorPartida.cpp
+ *
+ *  Created on: 23 jun. 2024
+ *      Author: n1c0l
+ */
+
+#include "ControladorPartida.h"
+
+ControladorPartida* ControladorPartida::instancia = nullptr;
+
+ControladorPartida::ControladorPartida() {
+	// TODO Auto-generated constructor stub
+
+}
+
+ControladorPartida::~ControladorPartida() {
+	// TODO Auto-generated destructor stub
+}
+
+ControladorPartida* ControladorPartida::getInstanciaControladorPartida()
+{
+	if (instancia == nullptr)
+	{
+		instancia = new ControladorPartida();
+	}
+
+	return instancia;
+}
+
+void ControladorPartida::holaPartida() {
+}

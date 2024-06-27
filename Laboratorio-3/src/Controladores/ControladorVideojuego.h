@@ -19,6 +19,7 @@ private:
 	virtual ~ControladorVideojuego();
 public:
 	static ControladorVideojuego* getInstanciaControladorVideojuego();
+	void holaVideojuego();
 	vector<Videojuego*> videojuegos;
 	
 };

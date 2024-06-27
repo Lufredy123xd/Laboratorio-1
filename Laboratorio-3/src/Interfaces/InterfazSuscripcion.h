@@ -13,7 +13,7 @@ public:
 	InterfazSuscripcion();
 	virtual ~InterfazSuscripcion();
 
-	virtual void printss()= 0;
+	virtual void holaSuscripcion()= 0;
 
 
 };

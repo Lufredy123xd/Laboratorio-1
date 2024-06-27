@@ -23,7 +23,7 @@ private:
 
 public:
 	static ControladorUsuario* getInstanciaControladorUsuario();
-	void printss();
+	void holaUsuario();
 	vector<Usuario*> usuarios;
 };
 

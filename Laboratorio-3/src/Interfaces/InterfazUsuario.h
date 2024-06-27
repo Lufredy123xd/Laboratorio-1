@@ -13,7 +13,7 @@ public:
 	InterfazUsuario();
 	virtual ~InterfazUsuario();
 
-	virtual void printss()= 0;
+	virtual void holaUsuario()= 0;
 
 
 };

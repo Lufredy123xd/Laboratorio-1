@@ -23,13 +23,22 @@ int main() {
 
 	fabrica->getInstanciaFabrica();
 
-	InterfazUsuario* InterfazUser = fabrica->getInstanciaUsuario();
+	InterfazUsuario* interfazUsuario = fabrica->getInstanciaUsuario();
 
-	InterfazUser->printss();
+	interfazUsuario->holaUsuario();
 
-	InterfazSuscripcion* InterfazSuscripcion = fabrica->getInstanciaSuscripcion();
+	InterfazSuscripcion* interfazSuscripcion = fabrica->getInstanciaSuscripcion();
 
-	InterfazSuscripcion->printss();
+	interfazSuscripcion->holaSuscripcion();
+
+	InterfazPartida* interfazPartida=fabrica->getInstanciaPartida();
+
+	interfazPartida->holaPartida();
+
+	InterfazVideojuego* interfazVideojuego = fabrica->getInstanciaVideojuego();
+
+	interfazVideojuego->holaVideojuego();
+
 
 
 	return 0;

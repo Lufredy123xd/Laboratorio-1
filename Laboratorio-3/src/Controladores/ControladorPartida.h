@@ -19,6 +19,7 @@ private:
 	virtual ~ControladorPartida();
 public:
 	static ControladorPartida* getInstanciaControladorPartida();
+	void holaPartida();
 	vector<Partida*> partidas;
 };
 

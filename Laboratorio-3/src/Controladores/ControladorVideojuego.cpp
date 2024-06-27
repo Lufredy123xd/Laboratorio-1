@@ -29,3 +29,7 @@ ControladorVideojuego* ControladorVideojuego::getInstanciaControladorVideojuego(
 	return instancia;
 }
 
+void ControladorVideojuego::holaVideojuego()
+{
+	cout<<"Hola soy Videojuego"<<endl;
+}

@@ -9,6 +9,7 @@
 
 CancelacionTemporalJugador::CancelacionTemporalJugador() {
 	// TODO Auto-generated constructor stub
+	this->cancelado = false;
 
 }
 

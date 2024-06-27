@@ -19,17 +19,19 @@ using namespace std;
 
 
 
-enum MetodoPago {Tarjeta, Paypal};
+enum metodoPago {Tarjeta, Paypal};
 class HistorialSuscripcionJugador {
 
 
 public:
 	HistorialSuscripcionJugador();
-	HistorialSuscripcionJugador(MetodoPago, DtFechaHora*, int, Jugador*, Suscripcion*);
+	HistorialSuscripcionJugador(metodoPago, DtFechaHora*, int, Jugador*, Suscripcion*);
 
 
 	void setJugador(Jugador* jugador);
 	void setSuscripcion(Suscripcion* suscripcion);
+	void setMetodoPago(metodoPago);
+	metodoPago getMetodoPago();
 
 	Jugador* getJugador();
 	Suscripcion* getSuscripcion();
@@ -39,7 +41,7 @@ public:
 
 
 private:
-	MetodoPago metodoPago;
+	metodoPago unMetodoPago;
 	DtFechaHora* fecha;
 	int costo;
 	Jugador* jugador;

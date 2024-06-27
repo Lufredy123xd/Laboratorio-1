@@ -9,7 +9,9 @@
 
 Categoria::Categoria() {
 	// TODO Auto-generated constructor stub
-
+	this->nombre= "";
+	this->descripcion="";
+	this->categoria= tipoCategoria::otros;
 }
 
 Categoria::~Categoria() {

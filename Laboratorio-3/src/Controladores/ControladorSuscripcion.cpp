@@ -24,5 +24,5 @@ ControladorSuscripcion* ControladorSuscripcion::getInstanciaControladorSuscripci
 }
 void ControladorSuscripcion::printss(){
 
-	cout<<"HOLA SOY LA INSTANCIA Suscripcion";
+	cout<<" HOLA SOY LA INSTANCIA Suscripcion";
 }

@@ -12,6 +12,10 @@ class DtPartida {
 public:
 	DtPartida();
 	virtual ~DtPartida();
+
+private:
+
+
 };
 
 #endif /* SRC_DATATYPES_DTPARTIDA_H_ */

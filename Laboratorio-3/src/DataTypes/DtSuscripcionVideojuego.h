@@ -11,8 +11,7 @@
 #include "../Clases/Suscripcion.h"
 using namespace std;
 
-enum validez {
-		Mensual, Trimestral, Anual, Ilimitado};
+enum validez {Mensual, Trimestral, Anual, Ilimitado};
 
 class DtSuscripcionVideojuego {
 private:

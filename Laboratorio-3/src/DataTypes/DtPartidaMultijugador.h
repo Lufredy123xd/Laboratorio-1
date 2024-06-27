@@ -8,10 +8,21 @@
 #ifndef SRC_DATATYPES_DTPARTIDAMULTIJUGADOR_H_
 #define SRC_DATATYPES_DTPARTIDAMULTIJUGADOR_H_
 
-class DtPartidaMultijugador {
+#include "DtPartida.h"
+
+class DtPartidaMultijugador : public DtPartida {
 public:
-	DtPartidaMultijugador();
+	DtPartidaMultijugador(bool, string[]);
 	virtual ~DtPartidaMultijugador();
+
+	string getNickNameJugadores();
+	bool getTransmitidoEnVivo();
+
+
+private:
+	string nickNameJugadores[];
+	bool transmitidoEnVivo;
+
 };
 
 #endif /* SRC_DATATYPES_DTPARTIDAMULTIJUGADOR_H_ */

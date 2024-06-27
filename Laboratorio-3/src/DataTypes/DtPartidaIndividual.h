@@ -8,10 +8,17 @@
 #ifndef SRC_DATATYPES_DTPARTIDAINDIVIDUAL_H_
 #define SRC_DATATYPES_DTPARTIDAINDIVIDUAL_H_
 
-class DtPartidaIndividual {
+#include "DtPartida.h"
+
+class DtPartidaIndividual : public DtPartida {
 public:
-	DtPartidaIndividual();
+	DtPartidaIndividual(bool);
 	virtual ~DtPartidaIndividual();
+
+	bool getContinuacionAnterior();
+
+private:
+	bool continuacionAnterior;
 };
 
 #endif /* SRC_DATATYPES_DTPARTIDAINDIVIDUAL_H_ */

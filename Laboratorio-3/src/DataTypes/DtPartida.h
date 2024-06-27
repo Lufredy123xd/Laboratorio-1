@@ -8,12 +8,25 @@
 #ifndef SRC_DATATYPES_DTPARTIDA_H_
 #define SRC_DATATYPES_DTPARTIDA_H_
 
+#include "DtFechaHora.h"
+#include <iostream>
+using namespace std;
+
+
 class DtPartida {
 public:
-	DtPartida();
+	DtPartida(int, DtFechaHora*, string);
 	virtual ~DtPartida();
 
+	DtFechaHora* getFechaHora();
+	string getNombreVideojuego();
+	int getID();
+
 private:
+	int id;
+	string nombreVideojuego;
+	DtFechaHora* fechaHora;
+
 
 
 };

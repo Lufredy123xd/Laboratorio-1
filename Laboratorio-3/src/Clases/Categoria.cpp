@@ -8,7 +8,14 @@
 #include "Categoria.h"
 
 Categoria::Categoria() {
-	// TODO Auto-generated constructor stub
+
+}
+
+Categoria::Categoria(string nombre, string descripcion,
+		TipoCategoria categoria) {
+	this->nombre = nombre;
+	this->descripcion = descripcion;
+	this->tipoCategoria = tipoCategoria;
 
 }
 
@@ -16,33 +23,22 @@ Categoria::~Categoria() {
 	// TODO Auto-generated destructor stub
 }
 
-string Categoria::getNombre()
-{
+string Categoria::getNombre() {
 	return this->nombre;
 }
 
-string Categoria::getDescripcion()
-{
+string Categoria::getDescripcion() {
 	return this->descripcion;
 }
 
-TipoCategoria* Categoria::getTipoCategoria()
-{
-	return this->tipoCategoria;
+void Categoria::setNombre(string nombre) {
+	this->nombre = nombre;
 }
 
-void Categoria::setNombre(string nombre)
-{
-	this->nombre=nombre;
+void Categoria::setDescripcion(string descripcion) {
+	this->descripcion = descripcion;
 }
 
-void Categoria::setDescripcion(string descripcion)
-{
-	this->descripcion=descripcion;
-}
-
-
-void Categoria::setTipoCategoria(TipoCategoria* tipoCategoria)
-{
-	this->tipoCategoria=tipoCategoria;
+void Categoria::setTipoCategoria(TipoCategoria tipoCategoria) {
+	this->tipoCategoria = tipoCategoria;
 }

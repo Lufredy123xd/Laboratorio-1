@@ -27,7 +27,7 @@ enum MetodoPago {Tarjeta, Paypal};
 
 public:
 	HistorialSuscripcionJugador();
-	HistorialSuscripcionJugador(MetodoPago, DtFecha, int, Jugador*, Suscripcion*);
+	HistorialSuscripcionJugador(MetodoPago, DtFecha*, int, Jugador*, Suscripcion*);
 
 
 	void setJugador(Jugador* jugador);
@@ -42,7 +42,7 @@ public:
 
 private:
 	MetodoPago metodoPago;
-	DtFecha fecha;
+	DtFecha* fecha;
 	int costo;
 
 	Jugador* jugador;

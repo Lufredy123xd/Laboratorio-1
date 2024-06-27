@@ -25,13 +25,3 @@ void Partida::setTotalHorasJugadas(int totalHorasJugadas)
 {
 	this->totalHorasJugadas=totalHorasJugadas;
 }
-
-Jugador* Partida::getJugadorUno()
-{
-	return this->jugadorUno;
-}
-
-void Partida::setJugadorUno(Jugador* newJugador)
-{
-	this->jugadorUno=newJugador;
-}

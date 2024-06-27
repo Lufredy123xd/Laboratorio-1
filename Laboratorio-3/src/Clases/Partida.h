@@ -9,25 +9,22 @@
 #define CLASES_PARTIDA_H_
 
 
+#include <iostream>
 
-#include "Jugador.h"
+using namespace std;
 
 
 class Partida {
 
 private:
-
-	Jugador* jugadorUno;
 	int totalHorasJugadas;
 
 public:
 
 	Partida();
 
-	Jugador* getJugadorUno();
 	int getTotalHorasJugadas();
 
-	void setJugadorUno(Jugador*);
 	void setTotalHorasJugadas(int);
 	virtual ~Partida();
 

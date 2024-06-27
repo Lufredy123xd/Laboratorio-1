@@ -9,14 +9,19 @@
 #define CLASES_ABANDONA_H_
 
 #include "Multijugador.h"
+#include "Jugador.h"
+
 #include <vector>
+
+using namespace std;
 
 class Abandona {
 
 public:
 	Abandona();
 
-	vector<Multijugador*> vectorMultijugador;
+	Multijugador* multijugador;
+	Jugador* jugador;
 
 	int gethoraAbandono();
 	void setHoraAbandono(int);

@@ -45,4 +45,3 @@ void Multijugador::setDuracionTotal(int duracionTotal)
 {
 	this->duracionTotal=duracionTotal;
 }
-

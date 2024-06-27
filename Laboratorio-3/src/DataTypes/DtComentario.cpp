@@ -1,18 +1,18 @@
 /*
- * InterfazUsuario.cpp
+ * DtComentario.cpp
  *
- *  Created on: 22 jun. 2024
+ *  Created on: 27 jun. 2024
  *      Author: Valentino Vignolo
  */
 
-#include "InterfazUsuario.h"
+#include "DtComentario.h"
 
-InterfazUsuario::InterfazUsuario() {
+DtComentario::DtComentario() {
 	// TODO Esbozo de constructor generado automáticamente
 
 }
 
-InterfazUsuario::~InterfazUsuario() {
+DtComentario::~DtComentario() {
 	// TODO Esbozo de destructor generado automáticamente
 }
 

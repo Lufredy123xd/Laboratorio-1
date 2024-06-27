@@ -11,11 +11,11 @@
 #include <iostream>
 using namespace std;
 
+enum Validez {
+		Mensual, Trimestral, Anual, Ilimitado};
 class Suscripcion {
 
-	enum Validez {
-		Mensual, Trimestral, Anual, Ilimitado
-	};
+
 
 public:
 	Suscripcion();

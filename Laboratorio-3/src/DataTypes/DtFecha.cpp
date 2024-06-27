@@ -7,9 +7,14 @@
 
 #include "DtFecha.h"
 
-DtFecha::DtFecha() {
-	// TODO Auto-generated constructor stub
-
+DtFecha::DtFecha(int anio, int mes, int dia, int hora, int minuto, int segundo)
+{
+	this->anio=anio;
+	this->mes=mes;
+	this->dia=dia;
+	this->hora=hora;
+	this->minuto=minuto;
+	this->segundo=segundo;
 }
 
 DtFecha::~DtFecha() {
@@ -76,12 +81,4 @@ void DtFecha::setSegundo(int segundo)
 	this->segundo=segundo;
 }
 
-DtFecha::DtFecha(int anio, int mes, int dia, int hora, int minuto, int segundo)
-{
-	this->anio=anio;
-	this->mes=mes;
-	this->dia=dia;
-	this->hora=hora;
-	this->minuto=minuto;
-	this->segundo=segundo;
-}
+

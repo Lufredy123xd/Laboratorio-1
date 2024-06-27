@@ -26,12 +26,12 @@ void Partida::setTotalHorasJugadas(int totalHorasJugadas)
 	this->totalHorasJugadas=totalHorasJugadas;
 }
 
-Jugador* Partida::getVectorJugador()
+Jugador* Partida::getJugadorUno()
 {
-	return this->vectorJugador;
+	return this->jugadorUno;
 }
 
-void Partida::setVectorJugador(Jugador* vectorJugador)
+void Partida::setJugadorUno(Jugador* newJugador)
 {
-	this->vectorJugador=vectorJugador;
+	this->jugadorUno=newJugador;
 }

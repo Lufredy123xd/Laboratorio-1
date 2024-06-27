@@ -9,26 +9,29 @@
 #define CLASES_CATEGORIA_H_
 
 #include <iostream>
-#include "../Enums/TipoCategoria.h"
 using namespace std;
 
+
+
 class Categoria {
+
+enum tipoCategoria {plataforma, genero, otros};
 private:
 
 	string nombre;
 	string descripcion;
-	TipoCategoria* tipoCategoria;
+	tipoCategoria tipoCategoria;
 
 public:
 	Categoria();
 
 	string getNombre();
 	string getDescripcion();
-	TipoCategoria* getTipoCategoria();
+	tipoCategoria getTipoCategoria();
 
 	void setNombre(string);
 	void setDescripcion(string);
-	void setTipoCategoria(TipoCategoria*);
+	void setTipoCategoria(tipoCategoria);
 	virtual ~Categoria();
 };
 

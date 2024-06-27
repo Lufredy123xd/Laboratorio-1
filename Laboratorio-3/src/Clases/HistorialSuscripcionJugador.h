@@ -9,13 +9,15 @@
 #define CLASES_HISTORIALSUSCRIPCIONJUGADOR_H_
 
 #include <vector>
+
 #include <iostream>
+using namespace std;
 
 #include "Jugador.h"
 #include "Suscripcion.h"
 #include "../DataTypes/DtFecha.h"
 
-using namespace std;
+
 
 
 class HistorialSuscripcionJugador {

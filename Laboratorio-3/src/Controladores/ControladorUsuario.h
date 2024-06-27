@@ -9,6 +9,7 @@
 #define CONTROLADORUSUARIO_H_
 #include <iostream>
 using namespace std;
+#include <vector>
 #include "../Interfaces/InterfazUsuario.h"
 #include  "../Clases/Usuario.h"
 
@@ -23,7 +24,7 @@ private:
 public:
 	static ControladorUsuario* getInstanciaControladorUsuario();
 	void printss();
-
+	vector<Usuario*> usuarios;
 };
 
 #endif /* CONTROLADORUSUARIO_H_ */

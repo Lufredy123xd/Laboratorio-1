@@ -9,6 +9,8 @@
 #define CONTROLADORSuscripcion_H_
 #include <iostream>
 using namespace std;
+#include <vector>
+#include "../Clases/Suscripcion.h"
 #include "../Interfaces/InterfazSuscripcion.h"
 
 class ControladorSuscripcion : public InterfazSuscripcion{
@@ -21,7 +23,7 @@ private:
 public:
 	static ControladorSuscripcion* getInstanciaControladorSuscripcion();
 	void printss();
-
+	vector<Suscripcion*> suscripciones;
 };
 
 #endif /* CONTROLADORSuscripcion_H_ */

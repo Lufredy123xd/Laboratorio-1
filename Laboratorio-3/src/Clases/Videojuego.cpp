@@ -13,7 +13,11 @@ Videojuego::Videojuego() {
 	this->descripcion = "";
 	this->promedioPuntos = 0;
 }
-
+Videojuego::Videojuego(string nombre, string descripcion, float promedioPuntos){
+	this->nombre = nombre;
+	this->descripcion = descripcion;
+	this->promedioPuntos = promedioPuntos;
+}
 Videojuego::~Videojuego() {
 	// TODO Esbozo de destructor generado automáticamente
 }

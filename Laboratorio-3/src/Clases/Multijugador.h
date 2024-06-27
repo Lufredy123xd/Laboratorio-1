@@ -8,12 +8,14 @@
 #ifndef CLASES_MULTIJUGADOR_H_
 #define CLASES_MULTIJUGADOR_H_
 
+#include <iostream>
+using namespace std;
+
 #include "Comentario.h"
 #include "Partida.h"
 #include <vector>
 
-class Multijugador:public Partida
-{
+class Multijugador : public Partida {
 
 private:
 

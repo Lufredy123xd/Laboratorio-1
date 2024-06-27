@@ -19,7 +19,6 @@ private:
 	int segundo;
 
 public:
-
 	DtFecha(int,int,int,int,int,int);
 
 		int getAnio();

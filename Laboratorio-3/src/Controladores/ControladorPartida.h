@@ -8,18 +8,18 @@
 #ifndef CONTROLADORPARTIDA_H_
 #define CONTROLADORPARTIDA_H_
 
+#include <vector>
+#include "../Clases/Partida.h"
 #include "../Interfaces/InterfazPartida.h"
 
 class ControladorPartida : public InterfazPartida {
-
-public:
-	ControladorPartida();
-	virtual ~ControladorPartida();
-
-	static ControladorPartida* getInstanciaControladorPartida();
-
 private:
 	static ControladorPartida* instancia;
+	ControladorPartida();
+	virtual ~ControladorPartida();
+public:
+	static ControladorPartida* getInstanciaControladorPartida();
+	vector<Partida*> partidas;
 };
 
 #endif /* CONTROLADORPARTIDA_H_ */

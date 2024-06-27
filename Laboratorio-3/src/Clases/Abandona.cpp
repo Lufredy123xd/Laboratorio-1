@@ -9,7 +9,7 @@
 
 Abandona::Abandona() {
 	// TODO Auto-generated constructor stub
-
+	this->horaAbandono = 0;
 }
 
 Abandona::~Abandona() {
@@ -26,12 +26,3 @@ void Abandona::setHoraAbandono(int horaAbandono)
 	this->horaAbandono=horaAbandono;
 }
 
-vector<Multijugador*> Abandona::getVectorMultijugador()
-{
-	return this->vectorMultijugador;
-}
-
-void Abandona::setVectorMultijugador(vector<Multijugador*> vectorMultijugador)
-{
-	this->vectorMultijugador=vectorMultijugador;
-}

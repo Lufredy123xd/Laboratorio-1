@@ -16,22 +16,18 @@ Jugador::~Jugador() {
 	// TODO Esbozo de destructor generado automáticamente
 }
 
-vector<Multijugador*> Jugador::getVectorMultijugador()
-{
-	return this->vectorMultijugador;
+string Jugador::getDescripcion() {
+	return this->descripcion;
 }
 
-void Jugador::setVectorMultijugador(vector<Multijugador*> vectorMultijugador)
-{
-	this->vectorMultijugador=vectorMultijugador;
+void Jugador::setDescripcion(string descripcion) {
+	this->descripcion = descripcion;
 }
 
-vector<Abandona*> Jugador::getVectorAbandona()
-{
-	return this->vectorAbandona;
+string Jugador::getNickname() {
+	return this->nickname;
 }
 
-void Jugador::setVectorAbandona(vector<Abandona*> vectorAbandona)
-{
-	this->vectorAbandona=vectorAbandona;
+void Jugador::setNickname(string nickname) {
+	this->nickname = nickname;
 }

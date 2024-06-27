@@ -11,21 +11,21 @@
 #include <iostream>
 using namespace std;
 
-#include "Jugador.h"
+//#include "Jugador.h"
 
 
 class Partida {
 
 private:
-	Jugador* jugadorUno;
+	//Jugador* jugadorUno;
 	int totalHorasJugadas;
 public:
 	Partida();
-
-	Jugador* getJugadorUno();
+	Partida(int);
+	//Jugador* getJugadorUno();
 	int getTotalHorasJugadas();
 
-	void setJugadorUno(Jugador*);
+	//void setJugadorUno(Jugador*);
 	void setTotalHorasJugadas(int);
 	virtual ~Partida();
 };

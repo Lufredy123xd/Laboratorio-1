@@ -20,15 +20,10 @@ public:
 	bool getEstadoCancelacion();
 	void setEstadoCancelacion(bool);
 
-	vector<Temporal*> getVectorSuscripcionTemporal();
-	void setVectorSuscripcionTemporal(vector<Temporal*>);
-
-	vector<Jugador*> getVectorJugador();
-	void setVectorJugador(vector<Jugador*>);
-
-private:
 	vector<Temporal*> vectorSusTemporal;
 	vector<Jugador*> vectorJugadores;
+
+private:
 
 	bool cancelado;
 };

@@ -11,27 +11,27 @@
 #include <iostream>
 using namespace std;
 
-
+enum tipoCategoria {plataforma, genero, otros};
 
 class Categoria {
 
-enum tipoCategoria {plataforma, genero, otros};
+
 private:
 
 	string nombre;
 	string descripcion;
-	tipoCategoria tipoCategoria;
+	tipoCategoria categoria;
 
 public:
 	Categoria();
 
 	string getNombre();
 	string getDescripcion();
-	tipoCategoria getTipoCategoria();
+	tipoCategoria getCategoria();
 
 	void setNombre(string);
 	void setDescripcion(string);
-	void setTipoCategoria(tipoCategoria);
+	void setCategoria(tipoCategoria);
 	virtual ~Categoria();
 };
 

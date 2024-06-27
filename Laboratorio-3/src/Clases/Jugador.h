@@ -12,28 +12,27 @@
 using namespace std;
 
 #include"Usuario.h"
-#include "Multijugador.h"
+#include "Partida.h"
 #include "Abandona.h"
 #include <vector>
 
 class Jugador : public Usuario{
 private:
 
-	vector<Multijugador*> vectorMultijugador;
-	vector<Abandona*> vectorAbandona;
 	string nickname;
 	string descripcion;
 
 public:
 	Jugador();
-
-	vector<Multijugador*> getVectorMultijugador();
-	void setVectorMultijugador(vector<Multijugador*>);
-
-	vector<Abandona*> getVectorAbandona();
-	void setVectorAbandona(vector<Abandona*>);
+	vector<Jugador*> sigue;
+	vector<Partida*> partidasMultijugador;
+	vector<Abandona*> partidasMultijugadorAbandonadas;
 
 	virtual ~Jugador();
+	string getDescripcion();
+	void setDescripcion(string descripcion);
+	string getNickname();
+	void setNickname(string nickname);
 };
 
 #endif /* JUGADOR_H_ */

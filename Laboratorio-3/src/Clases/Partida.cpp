@@ -12,6 +12,10 @@ Partida::Partida() {
 
 }
 
+Partida::Partida(int totalHorasJugadas) {
+	this->totalHorasJugadas = totalHorasJugadas;
+	//this->jugadorUno = jugadorUno;
+}
 Partida::~Partida() {
 	// TODO Auto-generated destructor stub
 }
@@ -26,12 +30,12 @@ void Partida::setTotalHorasJugadas(int totalHorasJugadas)
 	this->totalHorasJugadas=totalHorasJugadas;
 }
 
-Jugador* Partida::getJugadorUno()
-{
-	return this->jugadorUno;
-}
+//Jugador* Partida::getJugadorUno()
+//{
+//	return this->jugadorUno;
+//}
 
-void Partida::setJugadorUno(Jugador* newJugador)
-{
-	this->jugadorUno=newJugador;
-}
+//void Partida::setJugadorUno(Jugador* newJugador)
+//{
+//	this->jugadorUno=newJugador;
+//}

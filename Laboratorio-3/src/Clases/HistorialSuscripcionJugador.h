@@ -15,19 +15,17 @@ using namespace std;
 
 #include "Jugador.h"
 #include "Suscripcion.h"
-#include "../DataTypes/DtFecha.h"
+#include "../DataTypes/DtFechaHora.h"
 
 
-
-
-class HistorialSuscripcionJugador {
 
 enum MetodoPago {Tarjeta, Paypal};
+class HistorialSuscripcionJugador {
 
 
 public:
 	HistorialSuscripcionJugador();
-	HistorialSuscripcionJugador(MetodoPago, DtFecha, int, Jugador*, Suscripcion*);
+	HistorialSuscripcionJugador(MetodoPago, DtFechaHora*, int, Jugador*, Suscripcion*);
 
 
 	void setJugador(Jugador* jugador);
@@ -42,9 +40,8 @@ public:
 
 private:
 	MetodoPago metodoPago;
-	DtFecha fecha;
+	DtFechaHora* fecha;
 	int costo;
-
 	Jugador* jugador;
 	Suscripcion* suscripcion;
 

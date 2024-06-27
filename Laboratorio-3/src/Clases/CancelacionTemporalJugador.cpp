@@ -24,21 +24,5 @@ bool CancelacionTemporalJugador::getEstadoCancelacion() {
 	return this->cancelado;
 }
 
-vector<Temporal*> CancelacionTemporalJugador::getVectorSuscripcionTemporal() {
-	return this->vectorSusTemporal;
-}
 
-void CancelacionTemporalJugador::setVectorSuscripcionTemporal(vector<Temporal*> nuevoVectorSusTemporal)
-{
-	this->vectorSusTemporal = nuevoVectorSusTemporal;
-}
 
-vector<Jugador*> CancelacionTemporalJugador::getVectorJugador()
-{
-	return this->vectorJugadores;
-}
-
-void CancelacionTemporalJugador::setVectorJugador(vector<Jugador*> nuevoVectorJugador)
-{
-	this->vectorJugadores = nuevoVectorJugador;
-}

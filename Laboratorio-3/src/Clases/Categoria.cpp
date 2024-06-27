@@ -26,9 +26,9 @@ string Categoria::getDescripcion()
 	return this->descripcion;
 }
 
-TipoCategoria* Categoria::getTipoCategoria()
+tipoCategoria Categoria::getCategoria()
 {
-	return this->tipoCategoria;
+	return this->categoria;
 }
 
 void Categoria::setNombre(string nombre)
@@ -42,7 +42,7 @@ void Categoria::setDescripcion(string descripcion)
 }
 
 
-void Categoria::setTipoCategoria(TipoCategoria* tipoCategoria)
+void Categoria::setCategoria(tipoCategoria newCategoria)
 {
-	this->tipoCategoria=tipoCategoria;
+	this->categoria=newCategoria;
 }

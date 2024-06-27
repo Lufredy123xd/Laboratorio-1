@@ -9,19 +9,21 @@
 
 Comentario::Comentario() {
 	// TODO Auto-generated constructor stub
-
+	this->fechaEnvio = NULL;
+	this->horaEnvio = NULL;
+	this->textoMensaje = "";
 }
 
 Comentario::~Comentario() {
 	// TODO Auto-generated destructor stub
 }
 
-DtFecha* Comentario::getFechaEnvio()
+DtFechaHora* Comentario::getFechaEnvio()
 {
 	return this->fechaEnvio;
 }
 
-DtFecha* Comentario::getHoraEnvio()
+DtFechaHora* Comentario::getHoraEnvio()
 {
 	return this->horaEnvio;
 }
@@ -31,12 +33,12 @@ string Comentario::getTextoMensaje()
 	return this->textoMensaje;
 }
 
-void Comentario::setFechaEnvio(DtFecha* fechaEnvio)
+void Comentario::setFechaEnvio(DtFechaHora* fechaEnvio)
 {
 	this->fechaEnvio=fechaEnvio;
 }
 
-void Comentario::setHoraEnvio(DtFecha* horaEnvio)
+void Comentario::setHoraEnvio(DtFechaHora* horaEnvio)
 {
 	this->horaEnvio=horaEnvio;
 }

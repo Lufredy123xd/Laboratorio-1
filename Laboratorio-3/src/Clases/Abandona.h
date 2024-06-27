@@ -13,18 +13,17 @@
 
 class Abandona {
 private:
-	vector<Multijugador*> vectorMultijugador;
 	int horaAbandono;
 
 public:
 
 	Abandona();
 
-	vector<Multijugador*> getVectorMultijugador();
-	void setVectorMultijugador(vector<Multijugador*>);
-
 	int gethoraAbandono();
+
 	void setHoraAbandono(int);
+
+	vector<Multijugador*> vectorMultijugador;
 
 	virtual ~Abandona();
 };

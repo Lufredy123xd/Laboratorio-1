@@ -15,7 +15,7 @@ using namespace std;
 #include "Partida.h"
 #include <vector>
 
-class Multijugador : public Partida {
+class Multijugador : public Partida{
 
 private:
 

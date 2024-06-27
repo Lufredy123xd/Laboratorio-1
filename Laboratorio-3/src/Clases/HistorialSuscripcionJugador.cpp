@@ -8,13 +8,15 @@
 #include "HistorialSuscripcionJugador.h"
 
 HistorialSuscripcionJugador::HistorialSuscripcionJugador() {
+	// TODO Auto-generated constructor stub
+
 		this->fecha = NULL;
 		this->costo = 0;
 		this->suscripcion = NULL;
 		this->jugador = NULL;
 }
 
-HistorialSuscripcionJugador::HistorialSuscripcionJugador(MetodoPago nuevoMetodoPago, DtFecha* nuevaFecha, int nuevoCosto, Jugador* nuevoJugador, Suscripcion* nuevaSuscripcion) {
+HistorialSuscripcionJugador::HistorialSuscripcionJugador(MetodoPago nuevoMetodoPago, DtFechaHora* nuevaFecha, int nuevoCosto, Jugador* nuevoJugador, Suscripcion* nuevaSuscripcion) {
 	this->metodoPago = nuevoMetodoPago;
 	this->fecha = nuevaFecha;
 	this->costo = nuevoCosto;
@@ -35,4 +37,11 @@ Jugador* HistorialSuscripcionJugador::getJugador(){
 Suscripcion* HistorialSuscripcionJugador::getSuscripcion()
 {
 	return this->suscripcion;
+}
+
+void HistorialSuscripcionJugador::setJugador(Jugador* newJugador){
+	this->jugador = newJugador;
+}
+void HistorialSuscripcionJugador::setSuscripcion(Suscripcion* newSuscripcion){
+	this->suscripcion = newSuscripcion;
 }

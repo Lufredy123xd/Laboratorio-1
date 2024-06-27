@@ -9,7 +9,7 @@
 #define CONTROLADORPARTIDA_H_
 
 #include <vector>
-//#include "../Clases/Partida.h"
+#include "../Clases/Partida.h"
 #include "../Interfaces/InterfazPartida.h"
 
 class ControladorPartida : public InterfazPartida {
@@ -19,7 +19,7 @@ private:
 	virtual ~ControladorPartida();
 public:
 	static ControladorPartida* getInstanciaControladorPartida();
-	//vector<Partida*> partidas;
+	vector<Partida*> partidas;
 };
 
 #endif /* CONTROLADORPARTIDA_H_ */

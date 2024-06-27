@@ -11,26 +11,26 @@
 #include <iostream>
 using namespace std;
 
-#include "../DataTypes/DtFecha.h"
+#include "../DataTypes/DtFechaHora.h"
 
 
 class Comentario {
 
 private:
 
-DtFecha* fechaEnvio;
-DtFecha* horaEnvio;
+	DtFechaHora* fechaEnvio;
+	DtFechaHora* horaEnvio;
 string textoMensaje;
 
 public:
 	Comentario();
 
-	DtFecha* getFechaEnvio();
-	DtFecha* getHoraEnvio();
+	DtFechaHora* getFechaEnvio();
+	DtFechaHora* getHoraEnvio();
 	string getTextoMensaje();
 
-	void setFechaEnvio(DtFecha*);
-	void setHoraEnvio(DtFecha*);
+	void setFechaEnvio(DtFechaHora*);
+	void setHoraEnvio(DtFechaHora*);
 	void setTextoMensaje(string);
 
 	virtual ~Comentario();

@@ -8,12 +8,13 @@
 #ifndef JUGADOR_H_
 #define JUGADOR_H_
 
-#include"Usuario.h"
-
-#include <vector>
 #include <iostream>
-
 using namespace std;
+
+#include"Usuario.h"
+#include "Partida.h"
+#include "Abandona.h"
+#include <vector>
 
 class Jugador : public Usuario{
 private:
@@ -23,9 +24,15 @@ private:
 
 public:
 	Jugador();
-
+	vector<Jugador*> sigue;
+	vector<Partida*> partidasMultijugador;
+	vector<Abandona*> partidasMultijugadorAbandonadas;
 
 	virtual ~Jugador();
+	string getDescripcion();
+	void setDescripcion(string descripcion);
+	string getNickname();
+	void setNickname(string nickname);
 };
 
 #endif /* JUGADOR_H_ */

@@ -27,6 +27,10 @@ int main() {
 
 	InterfazUser->printss();
 
+	InterfazSuscripcion* InterfazSuscripcion = fabrica->getInstanciaSuscripcion();
+
+	InterfazSuscripcion->printss();
+
 
 	return 0;
 }

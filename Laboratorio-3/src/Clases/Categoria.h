@@ -11,27 +11,28 @@
 #include <iostream>
 using namespace std;
 
+enum tipoCategoria {plataforma, genero, otros};
+
 class Categoria {
-
-	enum TipoCategoria {plataforma, genero, otros};
-
-public:
-	Categoria();
-	Categoria(string, string, TipoCategoria);
-
-	string getNombre();
-	string getDescripcion();
-
-	void setNombre(string);
-	void setDescripcion(string);
-	void setTipoCategoria(TipoCategoria);
-	virtual ~Categoria();
 
 
 private:
+
 	string nombre;
 	string descripcion;
-	TipoCategoria tipoCategoria;
+	tipoCategoria categoria;
+
+public:
+	Categoria();
+
+	string getNombre();
+	string getDescripcion();
+	tipoCategoria getCategoria();
+
+	void setNombre(string);
+	void setDescripcion(string);
+	void setCategoria(tipoCategoria);
+	virtual ~Categoria();
 };
 
 #endif /* CLASES_CATEGORIA_H_ */

@@ -9,7 +9,7 @@
 #define JUGADOR_H_
 
 #include "Usuario.h"
-#include "Multijugador.h"
+#include "Partida.h"
 
 #include <vector>
 #include <iostream>
@@ -20,7 +20,7 @@ class Jugador: public Usuario {
 
 public:
 	Jugador();
-	vector<Multijugador*> vectorMultijugador;
+	vector<Partida*> vectorPartida;
 	virtual ~Jugador();
 
 private:

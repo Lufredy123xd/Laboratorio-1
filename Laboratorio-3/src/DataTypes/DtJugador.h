@@ -8,10 +8,21 @@
 #ifndef SRC_DATATYPES_DTJUGADOR_H_
 #define SRC_DATATYPES_DTJUGADOR_H_
 
-class DtJugador {
+#include "DtUsuario.h"
+#include <string>
+using namespace std;
+
+class DtJugador : public DtUsuario {
 public:
-	DtJugador();
+	DtJugador(string, string);
 	virtual ~DtJugador();
+
+	string getNickname();
+	string getDescripcion();
+
+private:
+	string nickName;
+	string descripcion;
 };
 
 #endif /* SRC_DATATYPES_DTJUGADOR_H_ */

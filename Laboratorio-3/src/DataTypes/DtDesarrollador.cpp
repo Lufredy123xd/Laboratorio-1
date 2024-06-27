@@ -7,12 +7,17 @@
 
 #include "DtDesarrollador.h"
 
-DtDesarrollador::DtDesarrollador() {
+DtDesarrollador::DtDesarrollador(string nombreEmpresa) {
 	// TODO Esbozo de constructor generado automáticamente
-
+	this->nombreEmpresa = nombreEmpresa;
 }
 
 DtDesarrollador::~DtDesarrollador() {
 	// TODO Esbozo de destructor generado automáticamente
+}
+
+string DtDesarrollador::getNombreEmpresa()
+{
+	return this->nombreEmpresa;
 }
 

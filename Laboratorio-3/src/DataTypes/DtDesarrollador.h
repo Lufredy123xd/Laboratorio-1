@@ -8,10 +8,20 @@
 #ifndef SRC_DATATYPES_DTDESARROLLADOR_H_
 #define SRC_DATATYPES_DTDESARROLLADOR_H_
 
-class DtDesarrollador {
+#include "DtUsuario.h"
+#include <string>
+using namespace std;
+
+class DtDesarrollador : public DtUsuario{
 public:
-	DtDesarrollador();
+	DtDesarrollador(string);
 	virtual ~DtDesarrollador();
+
+	string getNombreEmpresa();
+
+
+private:
+	string nombreEmpresa;
 };
 
 #endif /* SRC_DATATYPES_DTDESARROLLADOR_H_ */

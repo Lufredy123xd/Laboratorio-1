@@ -7,12 +7,16 @@
 
 #include "DtPartidaIndividual.h"
 
-DtPartidaIndividual::DtPartidaIndividual() {
+DtPartidaIndividual::DtPartidaIndividual(bool continuacionAnterior) {
 	// TODO Esbozo de constructor generado automáticamente
-
+	this->continuacionAnterior = continuacionAnterior;
 }
 
 DtPartidaIndividual::~DtPartidaIndividual() {
 	// TODO Esbozo de destructor generado automáticamente
 }
 
+bool DtPartidaIndividual::getContinuacionAnterior()
+{
+	return this->continuacionAnterior;
+}

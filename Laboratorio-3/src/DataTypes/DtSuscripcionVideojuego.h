@@ -10,8 +10,7 @@
 #include <string>
 using namespace std;
 
-enum validez {
-		Mensual, Trimestral, Anual, Ilimitado};
+enum validez {Mensual, Trimestral, Anual, Ilimitado};
 
 class DtSuscripcionVideojuego {
 private:

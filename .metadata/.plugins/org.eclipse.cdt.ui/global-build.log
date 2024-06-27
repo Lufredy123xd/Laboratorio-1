@@ -3,3 +3,45 @@ Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Enums\\TipoCategoria.o" "..\\src\\Enums\\TipoCategoria.cpp" 
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clases\\Categoria.o" "..\\src\\Clases\\Categoria.cpp" 
 g++ -o Laboratorio-3.exe "src\\Clases\\Abandona.o" "src\\Clases\\Categoria.o" "src\\Clases\\Comentario.o" "src\\Clases\\Desarrollador.o" "src\\Clases\\Individual.o" "src\\Clases\\Jugador.o" "src\\Clases\\Multijugador.o" "src\\Clases\\Partida.o" "src\\Clases\\Suscripcion.o" "src\\Clases\\Temporal.o" "src\\Clases\\Usuario.o" "src\\Clases\\Vitalicia.o" "src\\Controladores\\ControladorPartida.o" "src\\Controladores\\ControladorSuscripcion.o" "src\\Controladores\\ControladorUsuario.o" "src\\Controladores\\ControladorVideojuego.o" "src\\DataTypes\\DtFecha.o" "src\\Enums\\TipoCategoria.o" "src\\Fabrica.o" "src\\Interfaces\\InterfazPartida.o" "src\\Interfaces\\InterfazSuscripcion.o" "src\\Interfaces\\InterfazUsuario.o" "src\\Interfaces\\InterfazVideojuego.o" "src\\Practica_Singletone.o" 
+15:38:53 **** Incremental Build of configuration Debug for project Laboratorio-3 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\DataTypes\\DtFecha.o" "..\\src\\DataTypes\\DtFecha.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Fabrica.o" "..\\src\\Fabrica.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clases\\Desarrollador.o" "..\\src\\Clases\\Desarrollador.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Interfaces\\InterfazPartida.o" "..\\src\\Interfaces\\InterfazPartida.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Practica_Singletone.o" "..\\src\\Practica_Singletone.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clases\\SuscribeVideojuego.o" "..\\src\\Clases\\SuscribeVideojuego.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clases\\HistorialSuscripcionJugador.o" "..\\src\\Clases\\HistorialSuscripcionJugador.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controladores\\ControladorVideojuego.o" "..\\src\\Controladores\\ControladorVideojuego.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controladores\\ControladorSuscripcion.o" "..\\src\\Controladores\\ControladorSuscripcion.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Interfaces\\InterfazVideojuego.o" "..\\src\\Interfaces\\InterfazVideojuego.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clases\\Categoria.o" "..\\src\\Clases\\Categoria.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controladores\\ControladorPartida.o" "..\\src\\Controladores\\ControladorPartida.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clases\\Comentario.o" "..\\src\\Clases\\Comentario.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clases\\Suscripcion.o" "..\\src\\Clases\\Suscripcion.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controladores\\ControladorUsuario.o" "..\\src\\Controladores\\ControladorUsuario.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Interfaces\\InterfazUsuario.o" "..\\src\\Interfaces\\InterfazUsuario.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clases\\Jugador.o" "..\\src\\Clases\\Jugador.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clases\\CancelacionTemporalJugador.o" "..\\src\\Clases\\CancelacionTemporalJugador.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clases\\Temporal.o" "..\\src\\Clases\\Temporal.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Interfaces\\InterfazSuscripcion.o" "..\\src\\Interfaces\\InterfazSuscripcion.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clases\\JugadorPuntajeVideojuego.o" "..\\src\\Clases\\JugadorPuntajeVideojuego.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clases\\Videojuego.o" "..\\src\\Clases\\Videojuego.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clases\\Vitalicia.o" "..\\src\\Clases\\Vitalicia.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clases\\Usuario.o" "..\\src\\Clases\\Usuario.cpp" 
+g++ -o Laboratorio-3.exe "src\\Clases\\CancelacionTemporalJugador.o" "src\\Clases\\Categoria.o" "src\\Clases\\Comentario.o" "src\\Clases\\Desarrollador.o" "src\\Clases\\HistorialSuscripcionJugador.o" "src\\Clases\\Jugador.o" "src\\Clases\\JugadorPuntajeVideojuego.o" "src\\Clases\\SuscribeVideojuego.o" "src\\Clases\\Suscripcion.o" "src\\Clases\\Temporal.o" "src\\Clases\\Usuario.o" "src\\Clases\\Videojuego.o" "src\\Clases\\Vitalicia.o" "src\\Controladores\\ControladorPartida.o" "src\\Controladores\\ControladorSuscripcion.o" "src\\Controladores\\ControladorUsuario.o" "src\\Controladores\\ControladorVideojuego.o" "src\\DataTypes\\DtFecha.o" "src\\Fabrica.o" "src\\Interfaces\\InterfazPartida.o" "src\\Interfaces\\InterfazSuscripcion.o" "src\\Interfaces\\InterfazUsuario.o" "src\\Interfaces\\InterfazVideojuego.o" "src\\Practica_Singletone.o" 
+15:39:38 **** Incremental Build of configuration Debug for project Laboratorio-3 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clases\\Partida.o" "..\\src\\Clases\\Partida.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clases\\Multijugador.o" "..\\src\\Clases\\Multijugador.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clases\\Individual.o" "..\\src\\Clases\\Individual.cpp" 
+g++ -o Laboratorio-3.exe "src\\Clases\\CancelacionTemporalJugador.o" "src\\Clases\\Categoria.o" "src\\Clases\\Comentario.o" "src\\Clases\\Desarrollador.o" "src\\Clases\\HistorialSuscripcionJugador.o" "src\\Clases\\Individual.o" "src\\Clases\\Jugador.o" "src\\Clases\\JugadorPuntajeVideojuego.o" "src\\Clases\\Multijugador.o" "src\\Clases\\Partida.o" "src\\Clases\\SuscribeVideojuego.o" "src\\Clases\\Suscripcion.o" "src\\Clases\\Temporal.o" "src\\Clases\\Usuario.o" "src\\Clases\\Videojuego.o" "src\\Clases\\Vitalicia.o" "src\\Controladores\\ControladorPartida.o" "src\\Controladores\\ControladorSuscripcion.o" "src\\Controladores\\ControladorUsuario.o" "src\\Controladores\\ControladorVideojuego.o" "src\\DataTypes\\DtFecha.o" "src\\Fabrica.o" "src\\Interfaces\\InterfazPartida.o" "src\\Interfaces\\InterfazSuscripcion.o" "src\\Interfaces\\InterfazUsuario.o" "src\\Interfaces\\InterfazVideojuego.o" "src\\Practica_Singletone.o" 
+Info: Nothing to build for Laboratorio-3
+15:40:08 **** Incremental Build of configuration Debug for project Laboratorio-3 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clases\\Abandona.o" "..\\src\\Clases\\Abandona.cpp" 
+g++ -o Laboratorio-3.exe "src\\Clases\\Abandona.o" "src\\Clases\\CancelacionTemporalJugador.o" "src\\Clases\\Categoria.o" "src\\Clases\\Comentario.o" "src\\Clases\\Desarrollador.o" "src\\Clases\\HistorialSuscripcionJugador.o" "src\\Clases\\Individual.o" "src\\Clases\\Jugador.o" "src\\Clases\\JugadorPuntajeVideojuego.o" "src\\Clases\\Multijugador.o" "src\\Clases\\Partida.o" "src\\Clases\\SuscribeVideojuego.o" "src\\Clases\\Suscripcion.o" "src\\Clases\\Temporal.o" "src\\Clases\\Usuario.o" "src\\Clases\\Videojuego.o" "src\\Clases\\Vitalicia.o" "src\\Controladores\\ControladorPartida.o" "src\\Controladores\\ControladorSuscripcion.o" "src\\Controladores\\ControladorUsuario.o" "src\\Controladores\\ControladorVideojuego.o" "src\\DataTypes\\DtFecha.o" "src\\Fabrica.o" "src\\Interfaces\\InterfazPartida.o" "src\\Interfaces\\InterfazSuscripcion.o" "src\\Interfaces\\InterfazUsuario.o" "src\\Interfaces\\InterfazVideojuego.o" "src\\Practica_Singletone.o" 
+Info: Nothing to build for Laboratorio-3
+Info: Nothing to build for Laboratorio-3
+Info: Nothing to build for Laboratorio-3
+Info: Nothing to build for Laboratorio-3

@@ -8,7 +8,6 @@
 #ifndef SRC_DATATYPES_DTSUSCRIPCIONVIDEOJUEGO_H_
 #define SRC_DATATYPES_DTSUSCRIPCIONVIDEOJUEGO_H_
 #include <string>
-#include "../Clases/Suscripcion.h"
 using namespace std;
 
 enum validez {
@@ -16,17 +15,17 @@ enum validez {
 
 class DtSuscripcionVideojuego {
 private:
-  string tipo;
-  int costoSuscripcion;
   validez tipoValidez;
+  int costoSuscripcion;
+  string nombreVideojuego;
 public:
   DtSuscripcionVideojuego();
   virtual ~DtSuscripcionVideojuego();
+  validez getTipoValidez();
+  int getCostoSuscripcion();
+  string getNombreVideojuego();
 
-  string getTipo() const;
-  void setTipo(const string& tipo);
-  int getCostoSuscripcion() const;
-  void setCostoSuscripcion(int costoSuscripcion);
+  
 };
 
 

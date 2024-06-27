@@ -16,3 +16,17 @@ DtSuscripcionVideojuego::~DtSuscripcionVideojuego() {
 	// TODO Esbozo de destructor generado automáticamente
 }
 
+validez DtSuscripcionVideojuego::getTipoValidez()
+{
+    return this->tipoValidez;
+}
+
+int DtSuscripcionVideojuego::getCostoSuscripcion()
+{
+    return this->costoSuscripcion;
+}
+
+string DtSuscripcionVideojuego::getNombreVideojuego()
+{
+    return this->nombreVideojuego;
+}

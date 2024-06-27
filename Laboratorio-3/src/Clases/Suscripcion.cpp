@@ -16,12 +16,12 @@ Suscripcion::~Suscripcion() {
 	// TODO Auto-generated destructor stub
 }
 
-void Suscripcion::setValidez(Validez validez)
+void Suscripcion::setValidez(valideces validez)
 {
 	this->validez = validez;
 }
 
-Suscripcion::Validez Suscripcion::getValidez()
+valideces Suscripcion::getValidez()
 {
-	return validez;
+	return this->validez;
 }

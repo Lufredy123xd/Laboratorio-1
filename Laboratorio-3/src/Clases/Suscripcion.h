@@ -11,7 +11,7 @@
 #include <iostream>
 using namespace std;
 
-enum Validez {
+enum valideces {
 		Mensual, Trimestral, Anual, Ilimitado};
 class Suscripcion {
 
@@ -21,11 +21,11 @@ public:
 	Suscripcion();
 	virtual ~Suscripcion();
 
-	Validez getValidez();
-	void setValidez(Validez);
+	valideces getValidez();
+	void setValidez(valideces);
 
 private:
-	Validez validez;
+	valideces validez;
 };
 
 #endif /* CLASES_SUSCRIPCION_H_ */

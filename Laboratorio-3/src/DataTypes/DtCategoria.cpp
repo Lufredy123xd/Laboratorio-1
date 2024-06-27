@@ -16,3 +16,17 @@ DtCategoria::~DtCategoria() {
 	// TODO Esbozo de destructor generado automáticamente
 }
 
+string DtCategoria::getNombre()
+{
+    return this->nombre;
+}
+
+string DtCategoria::getDescripcion()
+{
+    return this->descripcion;
+}
+
+tipoCategorias DtCategoria::getTipoCategoria()
+{
+    return this->tipoCategoria;
+}

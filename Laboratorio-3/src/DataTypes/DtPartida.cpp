@@ -7,11 +7,11 @@
 
 #include "DtPartida.h"
 
-DtPartida::DtPartida(int id, DtFechaHora* fechaHora, string nombreVideojuego) {
+DtPartida::DtPartida(int id, DtFechaHora* nFechaHora, string nNombreVideojuego) {
 	// TODO Esbozo de constructor generado automáticamente
 	this->id = id;
-	this->fechaHora = fechaHora;
-	this->nombreVideojuego = nombreVideojuego;
+	this->fechaHora = nFechaHora;
+	this->nombreVideojuego = nNombreVideojuego;
 }
 
 DtPartida::~DtPartida() {

@@ -5,11 +5,14 @@
  *      Author: Valentino Vignolo
  */
 
+
 #include "DtCategoria.h"
 
-DtCategoria::DtCategoria() {
+DtCategoria(string nNombre, string nDescripcion,tipoCategorias nTipoCategoria) {
 	// TODO Esbozo de constructor generado automáticamente
-
+	this->nombre = nNombre;
+	this->descripcion = nDescripcion;
+	this->tipoCategoria = nTipoCategoria;
 }
 
 DtCategoria::~DtCategoria() {

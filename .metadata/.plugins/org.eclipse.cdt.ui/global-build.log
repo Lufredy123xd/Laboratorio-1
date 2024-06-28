@@ -24,3 +24,51 @@ In file included from ..\src\DataTypes\DtPartidaIndividual.h:11:0,
  class DtPartida {
        ^~~~~~~~~
 ..\src\DataTypes\DtPartida.h:16:7: note:   candidate expects 1 argument, 0 provided
+22:02:54 **** Incremental Build of configuration Debug for project Laboratorio-3 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clases\\Suscripcion.o" "..\\src\\Clases\\Suscripcion.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\DataTypes\\DtPartidaMultijugador.o" "..\\src\\DataTypes\\DtPartidaMultijugador.cpp" 
+..\src\DataTypes\DtPartidaMultijugador.cpp: In constructor 'DtPartidaMultijugador::DtPartidaMultijugador(bool, std::vector<Jugador*>)':
+..\src\DataTypes\DtPartidaMultijugador.cpp:10:90: error: no matching function for call to 'DtPartida::DtPartida()'
+ DtPartidaMultijugador::DtPartidaMultijugador(bool enVivo, vector<Jugador*> nicksJugadores) {
+                                                                                          ^
+In file included from ..\src\DataTypes\DtPartidaMultijugador.h:11:0,
+                 from ..\src\DataTypes\DtPartidaMultijugador.cpp:8:
+..\src\DataTypes\DtPartida.h:18:2: note: candidate: DtPartida::DtPartida(int, DtFechaHora*, std::__cxx11::string)
+  DtPartida(int, DtFechaHora*, string);
+  ^~~~~~~~~
+..\src\DataTypes\DtPartida.h:18:2: note:   candidate expects 3 arguments, 0 provided
+..\src\DataTypes\DtPartida.h:16:7: note: candidate: DtPartida::DtPartida(const DtPartida&)
+ class DtPartida {
+       ^~~~~~~~~
+..\src\DataTypes\DtPartida.h:16:7: note:   candidate expects 1 argument, 0 provided
+..\src\DataTypes\DtPartidaMultijugador.cpp: At global scope:
+..\src\DataTypes\DtPartidaMultijugador.cpp:26:18: error: prototype for 'std::vector<Jugador*> DtPartidaMultijugador::getNickNameJugadores()' does not match any in class 'DtPartidaMultijugador'
+ vector<Jugador*> DtPartidaMultijugador::getNickNameJugadores()
+                  ^~~~~~~~~~~~~~~~~~~~~
+In file included from ..\src\DataTypes\DtPartidaMultijugador.cpp:8:0:
+..\src\DataTypes\DtPartidaMultijugador.h:21:9: error: candidate is: std::__cxx11::string DtPartidaMultijugador::getNickNameJugadores()
+  string getNickNameJugadores();
+         ^~~~~~~~~~~~~~~~~~~~
+22:06:10 **** Incremental Build of configuration Debug for project Laboratorio-3 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clases\\Temporal.o" "..\\src\\Clases\\Temporal.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clases\\Desarrollador.o" "..\\src\\Clases\\Desarrollador.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controladores\\ControladorUsuario.o" "..\\src\\Controladores\\ControladorUsuario.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\DataTypes\\DtVideojuego.o" "..\\src\\DataTypes\\DtVideojuego.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clases\\Partida.o" "..\\src\\Clases\\Partida.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\DataTypes\\DtPartidaIndividual.o" "..\\src\\DataTypes\\DtPartidaIndividual.cpp" 
+..\src\DataTypes\DtPartidaIndividual.cpp: In constructor 'DtPartidaIndividual::DtPartidaIndividual(bool)':
+..\src\DataTypes\DtPartidaIndividual.cpp:10:71: error: no matching function for call to 'DtPartida::DtPartida()'
+ DtPartidaIndividual::DtPartidaIndividual(bool continuarPartidaAnterior) {
+                                                                       ^
+In file included from ..\src\DataTypes\DtPartidaIndividual.h:11:0,
+                 from ..\src\DataTypes\DtPartidaIndividual.cpp:8:
+..\src\DataTypes\DtPartida.h:18:2: note: candidate: DtPartida::DtPartida(int, DtFechaHora*, std::__cxx11::string)
+  DtPartida(int, DtFechaHora*, string);
+  ^~~~~~~~~
+..\src\DataTypes\DtPartida.h:18:2: note:   candidate expects 3 arguments, 0 provided
+..\src\DataTypes\DtPartida.h:16:7: note: candidate: DtPartida::DtPartida(const DtPartida&)
+ class DtPartida {
+       ^~~~~~~~~
+..\src\DataTypes\DtPartida.h:16:7: note:   candidate expects 1 argument, 0 provided

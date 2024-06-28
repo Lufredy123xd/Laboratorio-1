@@ -7,9 +7,9 @@
 
 #include "DtPartidaMultijugador.h"
 
-DtPartidaMultijugador::DtPartidaMultijugador(bool enVivo, string nickNames[]) {
+DtPartidaMultijugador::DtPartidaMultijugador(bool enVivo, vector<Jugador*> nicksJugadores) {
 	// TODO Esbozo de constructor generado automáticamente
-	this->nickNameJugadores = nickNames;
+	this->nickNameJugadores = nicksJugadores;
 	this->transmitidoEnVivo = enVivo;
 
 }
@@ -23,7 +23,7 @@ bool DtPartidaMultijugador::getTransmitidoEnVivo()
 	return this->transmitidoEnVivo;
 }
 
-string DtPartidaMultijugador::getNickNameJugadores()
+vector<Jugador*> DtPartidaMultijugador::getNickNameJugadores()
 {
-	return
+	return this->nickNameJugadores;
 }

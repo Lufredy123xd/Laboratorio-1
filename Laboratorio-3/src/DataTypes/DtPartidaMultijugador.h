@@ -9,10 +9,13 @@
 #define SRC_DATATYPES_DTPARTIDAMULTIJUGADOR_H_
 
 #include "DtPartida.h"
+#include "../Clases/Jugador.h"
+#include <vector>
+using namespace std;
 
 class DtPartidaMultijugador : public DtPartida {
 public:
-	DtPartidaMultijugador(bool, string[]);
+	DtPartidaMultijugador(bool, vector<Jugador*>);
 	virtual ~DtPartidaMultijugador();
 
 	string getNickNameJugadores();
@@ -20,7 +23,7 @@ public:
 
 
 private:
-	string nickNameJugadores[];
+	vector<Jugador*> nickNameJugadores;
 	bool transmitidoEnVivo;
 
 };

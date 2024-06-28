@@ -7,9 +7,9 @@
 
 #include "DtPartidaIndividual.h"
 
-DtPartidaIndividual::DtPartidaIndividual(bool continuacionAnterior) {
+DtPartidaIndividual::DtPartidaIndividual(bool continuarPartidaAnterior) {
 	// TODO Esbozo de constructor generado automáticamente
-	this->continuacionAnterior = continuacionAnterior;
+	this->continuacionAnterior = continuarPartidaAnterior;
 }
 
 DtPartidaIndividual::~DtPartidaIndividual() {

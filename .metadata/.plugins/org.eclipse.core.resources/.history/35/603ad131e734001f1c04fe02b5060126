@@ -13,7 +13,6 @@ enum metodoPagoCompra{tarjeta, paypal};
 
 class DtDatosCompra {
 
-
 private:
 
 	validezCompra tipoSuscripcion;
@@ -22,7 +21,7 @@ private:
 
 public:
 
-	DtDatosCompra(validezCompra,metodoPagoCompra, int);
+	DtDatosCompra(validezCompra,metodoPagoCompra, costo);
 
 	validezCompra getTipoSuscripcion();
 	metodoPagoCompra getMetodoPagoCompra();

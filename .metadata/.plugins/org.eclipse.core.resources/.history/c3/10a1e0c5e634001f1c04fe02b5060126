@@ -7,10 +7,10 @@
 
 #include "DtDatosCompra.h"
 
-DtDatosCompra::DtDatosCompra(validezCompra tipoSuscripcion,metodopagoCompra metodoCompra,int costo)
+DtDatosCompra::DtDatosCompra(validezCompra,metodoPagoCompra,costo)
 {
 	this->tipoSuscripcion=tipoSuscripcion;
-	this->metodopagoCompra=metodoCompra;
+	this->metodoPagoCompra=metodoPagoCompra;
 	this->costo=costo;
 
 }
@@ -26,7 +26,7 @@ validezCompra DtDatosCompra::getTipoSuscripcion()
 
 metodoPagoCompra DtDatosCompra::getMetodoPagoCompra()
 {
-	return this->metodopagoCompra;
+	return this->metodoPagoCompra;
 }
 
 int DtDatosCompra::getCosto()

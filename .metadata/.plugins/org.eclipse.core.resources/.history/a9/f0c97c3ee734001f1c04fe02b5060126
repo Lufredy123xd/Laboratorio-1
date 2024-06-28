@@ -8,8 +8,8 @@
 #ifndef SRC_DATATYPES_DTDATOSCOMPRA_H_
 #define SRC_DATATYPES_DTDATOSCOMPRA_H_
 
-enum validezCompra{mensual,trimestre,anual,ilimitado};
-enum metodoPagoCompra{tarjeta, paypal};
+	enum validezCompra{mensual,trimestre,anual,ilimitado};
+	enum metodoPagoCompra{tarjeta, paypal};
 
 class DtDatosCompra {
 
@@ -22,7 +22,7 @@ private:
 
 public:
 
-	DtDatosCompra(validezCompra,metodoPagoCompra, int);
+	DtDatosCompra(validezCompra,metodoPagoCompra, costo);
 
 	validezCompra getTipoSuscripcion();
 	metodoPagoCompra getMetodoPagoCompra();

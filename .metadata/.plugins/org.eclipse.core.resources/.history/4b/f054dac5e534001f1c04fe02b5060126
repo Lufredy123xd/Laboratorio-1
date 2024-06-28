@@ -7,11 +7,8 @@
 
 #include "DtDatosCompra.h"
 
-DtDatosCompra::DtDatosCompra(validezCompra tipoSuscripcion,metodopagoCompra metodoCompra,int costo)
-{
-	this->tipoSuscripcion=tipoSuscripcion;
-	this->metodopagoCompra=metodoCompra;
-	this->costo=costo;
+DtDatosCompra::DtDatosCompra() {
+	// TODO Esbozo de constructor generado automáticamente
 
 }
 
@@ -26,7 +23,7 @@ validezCompra DtDatosCompra::getTipoSuscripcion()
 
 metodoPagoCompra DtDatosCompra::getMetodoPagoCompra()
 {
-	return this->metodopagoCompra;
+	return this->metodoPagoCompra;
 }
 
 int DtDatosCompra::getCosto()

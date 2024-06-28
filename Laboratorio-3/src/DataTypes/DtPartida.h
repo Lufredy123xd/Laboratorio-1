@@ -12,7 +12,6 @@
 #include <iostream>
 using namespace std;
 
-
 class DtPartida {
 public:
 	DtPartida(int, DtFechaHora*, string);

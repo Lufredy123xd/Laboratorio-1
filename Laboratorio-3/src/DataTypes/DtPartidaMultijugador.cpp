@@ -23,7 +23,3 @@ bool DtPartidaMultijugador::getTransmitidoEnVivo()
 	return this->transmitidoEnVivo;
 }
 
-vector<Jugador*> DtPartidaMultijugador::getNickNameJugadores()
-{
-	return this->nickNameJugadores;
-}

@@ -18,12 +18,12 @@ public:
 	DtPartidaMultijugador(bool, vector<Jugador*>);
 	virtual ~DtPartidaMultijugador();
 
-	string getNickNameJugadores();
+	vector<Jugador*> nickNameJugadores;
+
 	bool getTransmitidoEnVivo();
 
 
 private:
-	vector<Jugador*> nickNameJugadores;
 	bool transmitidoEnVivo;
 
 };
